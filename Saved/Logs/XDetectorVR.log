@@ -2088,3 +2088,97 @@ LogInit: Object subsystem initialized
 [2018.01.28-17.04.27:435][859]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/GridWorld_0258BA452849F8385F7672A48B109A4C47.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap'
 [2018.01.28-17.04.27:438][859]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap
 [2018.01.28-17.04.27:467][859]LogFileHelpers: Saving map 'GridWorld_02' took 0.380
+[2018.01.28-17.12.22:175][475]LogTemp: Repeating last play command: VR Preview
+[2018.01.28-17.12.22:191][475]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02' with GeneratedClass '/Game/Maps/GridWorld_02.GridWorld_02_C' with ClassGeneratedBy '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02'
+[2018.01.28-17.12.22:191][475]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.28-17.12.22:191][475]LogHMD: Initializing OVRPlugin session
+[2018.01.28-17.12.22:216][475]PIE: New page: PIE session: GridWorld_02 (Jan 28, 2018, 7:12:22 AM)
+[2018.01.28-17.12.22:216][475]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GridWorld_02
+[2018.01.28-17.12.22:227][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011464s)
+[2018.01.28-17.12.22:228][475]LogAIModule: Creating AISystem for world GridWorld_02
+[2018.01.28-17.12.22:228][475]LogPlayLevel: PIE: World Init took: (0.000763s)
+[2018.01.28-17.12.22:228][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GridWorld_02.GridWorld_02 to /Game/Maps/UEDPIE_0_GridWorld_02.GridWorld_02 (0.012553s)
+[2018.01.28-17.12.22:281][475]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.28-17.12.22:291][475]LogInit: FAudioDevice initialized.
+[2018.01.28-17.12.22:371][475]LogHMD: Allocating Oculus 2688 x 1584 rendertarget swapchain
+[2018.01.28-17.12.22:399][475]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.01.28-17.12.22:399][475]LogLoad: Game class is 'GameModeBase'
+[2018.01.28-17.12.22:402][475]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GridWorld_02.GridWorld_02 up for play (max tick rate 0) at 2018.01.28-12.12.22
+[2018.01.28-17.12.22:402][475]LogWorld: Bringing up level for play took: 0.002201
+[2018.01.28-17.12.22:410][475]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GridWorld_02 -0.252
+[2018.01.28-17.12.22:410][475]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02' with GeneratedClass '/Game/Maps/GridWorld_02.GridWorld_02_C' with ClassGeneratedBy '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02'
+[2018.01.28-17.12.22:414][475]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.01.28-17.12.22:414][475]LogHMD: Allocating Oculus 2688 x 1584 depth rendertarget swapchain
+[2018.01.28-17.15.07:010][516]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02' with GeneratedClass '/Game/Maps/GridWorld_02.GridWorld_02_C' with ClassGeneratedBy '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02'
+[2018.01.28-17.15.07:147][516]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02' with GeneratedClass '/Game/Maps/GridWorld_02.GridWorld_02_C' with ClassGeneratedBy '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02'
+[2018.01.28-17.15.47:579][435]LogMaterial: Missing cached shader map for material Stool_Mat, compiling. 
+[2018.01.28-17.15.47:655][435]LogMaterial: Missing cached shader map for material Stool_Mat, compiling. 
+[2018.01.28-17.15.47:670][435]LogMaterial: Missing cached shader map for material Stool_Mat, compiling. 
+[2018.01.28-17.15.47:718][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.01.28-17.15.47:722][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.01.28-17.15.47:726][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.01.28-17.15.47:730][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.01.28-17.15.50:525][593]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.01.28-17.15.50:525][593]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 237 instructions
+[2018.01.28-17.15.50:525][593]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-17.15.50:525][593]MaterialEditorStats: Texture samplers: 6/16
+[2018.01.28-17.15.50:525][593]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-17.15.59:634][957]LogMaterial: Missing cached shader map for material Stool_Mat, compiling. 
+[2018.01.28-17.16.00:339][980]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.01.28-17.16.00:339][980]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 237 instructions
+[2018.01.28-17.16.00:339][980]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-17.16.00:339][980]MaterialEditorStats: Texture samplers: 6/16
+[2018.01.28-17.16.00:339][980]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-17.16.03:571][ 86]LogMaterial: Missing cached shader map for material Stool_Mat, compiling. 
+[2018.01.28-17.16.03:588][ 86]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.01.28-17.16.04:318][104]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.01.28-17.16.04:318][104]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 237 instructions
+[2018.01.28-17.16.04:318][104]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-17.16.04:318][104]MaterialEditorStats: Texture samplers: 6/16
+[2018.01.28-17.16.04:318][104]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-17.16.06:788][185]LogMaterial: Missing cached shader map for material Stool_Mat, compiling. 
+[2018.01.28-17.16.07:495][208]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.01.28-17.16.07:495][208]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 237 instructions
+[2018.01.28-17.16.07:495][208]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-17.16.07:495][208]MaterialEditorStats: Texture samplers: 6/16
+[2018.01.28-17.16.07:495][208]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-17.16.15:510][534]LogMaterial: Missing cached shader map for material Stool_Mat, compiling. 
+[2018.01.28-17.16.16:198][551]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.01.28-17.16.16:198][551]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 237 instructions
+[2018.01.28-17.16.16:198][551]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-17.16.16:198][551]MaterialEditorStats: Texture samplers: 6/16
+[2018.01.28-17.16.16:198][551]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-17.16.45:013][649]LogMaterial: Missing cached shader map for material Stool_Mat, compiling. 
+[2018.01.28-17.16.45:037][649]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.01.28-17.16.46:281][681]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.01.28-17.16.46:281][681]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 239 instructions
+[2018.01.28-17.16.46:281][681]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-17.16.46:281][681]MaterialEditorStats: Texture samplers: 6/16
+[2018.01.28-17.16.46:281][681]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-17.16.53:901][849]LogMaterialEditor: Saving and Compiling material Stool_Mat
+[2018.01.28-17.16.54:437][849]LogMaterial: Missing cached shader map for material Stool_Mat, compiling. 
+[2018.01.28-17.16.54:499][849]LogMaterial: Missing cached shader map for material Stool_Mat, compiling. 
+[2018.01.28-17.16.54:526][849]LogMaterial: Missing cached shader map for material Stool_Mat, compiling. 
+[2018.01.28-17.16.54:589][849]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Stool_Mat, compiling. 
+[2018.01.28-17.16.55:089][849]TextureStreamingBuild: Display: Compiling optional shaders took 0.506 seconds.
+[2018.01.28-17.16.57:607][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Meshes/Stool/Stool_Mat" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/Stool/Stool_Mat.uasset" SILENT=true
+[2018.01.28-17.16.57:644][849]LogSavePackage: Save=24.22ms
+[2018.01.28-17.16.57:644][849]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Stool_Mat1F55BFBE4BCC481844EC38A1801E08E4.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/Stool/Stool_Mat.uasset'
+[2018.01.28-17.16.57:646][849]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/Stool/Stool_Mat.uasset
+[2018.01.28-17.16.57:702][849]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.01.28-17.16.57:702][849]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 239 instructions
+[2018.01.28-17.16.57:702][849]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-17.16.57:702][849]MaterialEditorStats: Texture samplers: 7/16
+[2018.01.28-17.16.57:702][849]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-17.17.07:541][327]LogEditorViewport: Clicking on Actor (LMB): BP_PickupStool_C (BP_PickupStool)
+[2018.01.28-17.17.27:747][447]BlueprintLog: New page: Compile BP_PickupStool
+[2018.01.28-17.17.28:843][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Meshes/BP_PickupStool" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupStool.uasset" SILENT=true
+[2018.01.28-17.17.28:888][464]LogSavePackage: Save=34.36ms
+[2018.01.28-17.17.28:888][464]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/BP_PickupStool4827962A493A62EE33AE4CA2E2ACE137.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupStool.uasset'
+[2018.01.28-17.17.28:890][464]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupStool.uasset
+[2018.01.28-17.17.45:140][645]LogEditorViewport: Clicking on Actor (LMB): BP_PickupTable_C (BP_PickupTable)
+[2018.01.28-17.18.03:508][833]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GridWorld_02" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.28-17.18.03:788][833]LogSavePackage: Save=229.83ms
+[2018.01.28-17.18.03:788][833]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/GridWorld_02761FF77F40CB144053C72CB1C1C83765.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap'
+[2018.01.28-17.18.03:791][833]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap
+[2018.01.28-17.18.03:815][833]LogFileHelpers: Saving map 'GridWorld_02' took 0.387
