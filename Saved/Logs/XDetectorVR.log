@@ -862,3 +862,39 @@ LogInit: Object subsystem initialized
 [2018.01.28-14.28.46:576][925]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Grid_Opac_Auto304335ACD481557A770A6C7B989F6A15E.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Materials/Grid_Opac_Auto3.uasset'
 [2018.01.28-14.28.46:577][925]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Materials/Grid_Opac_Auto3.uasset
 [2018.01.28-14.28.46:577][925]LogFileHelpers: Auto-saving content packages took 0.141
+[2018.01.28-14.33.52:354][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GridWorld" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.28-14.33.52:625][665]LogSavePackage: Save=219.54ms
+[2018.01.28-14.33.52:625][665]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/GridWorld04163473440747049D57E09C5FC55CF1.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld.umap'
+[2018.01.28-14.33.52:637][665]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld.umap
+[2018.01.28-14.33.52:659][665]LogFileHelpers: Saving map 'GridWorld' took 0.384
+[2018.01.28-14.33.52:661][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Materials/Grid_Purple2" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Grid_Purple2.uasset" SILENT=true
+[2018.01.28-14.33.52:712][665]LogSavePackage: Save=42.94ms
+[2018.01.28-14.33.52:712][665]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Grid_Purple28536434F40E86272492E4AB1C86F3050.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Grid_Purple2.uasset'
+[2018.01.28-14.33.52:725][665]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Grid_Purple2.uasset
+[2018.01.28-14.33.52:728][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Sounds/Noise_01" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Sounds/Noise_01.uasset" SILENT=true
+[2018.01.28-14.33.52:734][665]LogSavePackage: Save=4.85ms
+[2018.01.28-14.33.52:734][665]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Noise_013A9A981443817C52B199458965F1777A.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Sounds/Noise_01.uasset'
+[2018.01.28-14.33.52:739][665]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Sounds/Noise_01.uasset
+[2018.01.28-14.33.52:748][665]LogSavePackage: Save=4.85ms
+[2018.01.28-14.33.52:749][665]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Wham__-_Wake_Me_Up_Before_You_Go0C3DDFF4405C8748DB7E81993057FAD6.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Sounds/Wham__-_Wake_Me_Up_Before_You_Go-Go__Official_Video_.uasset'
+[2018.01.28-14.33.52:754][665]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Sounds/Wham__-_Wake_Me_Up_Before_You_Go-Go__Official_Video_.uasset
+[2018.01.28-14.33.52:756][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Sounds/Noise" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Sounds/Noise.uasset" SILENT=true
+[2018.01.28-14.33.52:765][665]LogSavePackage: Save=6.83ms
+[2018.01.28-14.33.52:765][665]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/NoiseD3AAECED441961E09BAC8BAA200FAFDC.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Sounds/Noise.uasset'
+[2018.01.28-14.33.52:775][665]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Sounds/Noise.uasset
+[2018.01.28-14.33.52:777][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Sounds/WakeMeUp" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Sounds/WakeMeUp.uasset" SILENT=true
+[2018.01.28-14.33.52:786][665]LogSavePackage: Save=7.53ms
+[2018.01.28-14.33.52:786][665]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/WakeMeUp612EBA484A4ACF7793B0E3A6D1FFB8CD.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Sounds/WakeMeUp.uasset'
+[2018.01.28-14.33.52:792][665]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Sounds/WakeMeUp.uasset
+[2018.01.28-14.33.52:794][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Sounds/NoiseAtt" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Sounds/NoiseAtt.uasset" SILENT=true
+[2018.01.28-14.33.52:800][665]LogSavePackage: Save=4.66ms
+[2018.01.28-14.33.52:800][665]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/NoiseAtt10D3A6304A2312B8EDD8D391CD51A508.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Sounds/NoiseAtt.uasset'
+[2018.01.28-14.33.52:804][665]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Sounds/NoiseAtt.uasset
+[2018.01.28-14.33.52:806][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Meshes/BP_PickupCube" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupCube.uasset" SILENT=true
+[2018.01.28-14.33.52:837][665]LogSavePackage: Save=22.98ms
+[2018.01.28-14.33.52:837][665]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/BP_PickupCubeA4B18B3E409725637889A39CD304EDFC.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupCube.uasset'
+[2018.01.28-14.33.52:841][665]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupCube.uasset
+[2018.01.28-14.33.52:861][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Materials/Grid_Opac" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Grid_Opac.uasset" SILENT=true
+[2018.01.28-14.33.52:906][665]LogSavePackage: Save=42.93ms
+[2018.01.28-14.33.52:906][665]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Grid_OpacDBF2516349640D40736EC88EF30F312E.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Grid_Opac.uasset'
+[2018.01.28-14.33.52:910][665]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Grid_Opac.uasset
