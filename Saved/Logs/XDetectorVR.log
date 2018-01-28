@@ -2249,3 +2249,383 @@ LogInit: Object subsystem initialized
 [2018.01.28-17.25.52:298][397]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
 [2018.01.28-17.25.52:328][397]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
 [2018.01.28-17.25.52:330][397]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2018.01.28-18.01.59:184][573]AssetReimport: New page: Outstanding source content changes 8:01:59 AM
+[2018.01.28-18.01.59:189][573]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorTexture/T_DetectorNewMesh_1001_ORM.png)
+[2018.01.28-18.01.59:957][574]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorTexture/T_DetectorNewMesh_1001_N.png)
+[2018.01.28-18.02.00:509][575]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorTexture/T_DetectorNewMesh_1001_H.png)
+[2018.01.28-18.02.01:048][576]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorTexture/T_DetectorNewMesh_1001_E.png)
+[2018.01.28-18.02.01:592][577]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorTexture/T_DetectorNewMesh_1001_BC.png)
+[2018.01.28-18.02.02:349][578]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorNewMesh.fbx)
+[2018.01.28-18.02.02:352][578]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.01.28-18.02.02:352][578]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.01.28-18.02.02:352][578]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.01.28-18.02.02:352][578]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.01.28-18.02.02:352][578]LogFbx: ItemName: Material, ItemCount : 1
+[2018.01.28-18.02.02:352][578]LogFbx: ItemName: Model, ItemCount : 1
+[2018.01.28-18.02.02:352][578]LogFbx: ItemName: AnimationCurveNode, ItemCount : 8
+[2018.01.28-18.02.02:357][578]LogFbx: Loading FBX Scene from D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorNewMesh.fbx
+[2018.01.28-18.02.02:365][578]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.28-18.02.03:862][578]LogFbx: Loading FBX Scene from D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorNewMesh.fbx
+[2018.01.28-18.02.03:869][578]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.28-18.02.03:869][578]LogLinker: Can't find file '/Game/X_Materials/Detector/lambert1'
+[2018.01.28-18.02.03:869][578]LogLinker: Can't find file '/Game/X_Materials/Detector/lambert1'
+[2018.01.28-18.02.03:875][578]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.01.28-18.02.03:898][578]LogStaticMesh: Building static mesh DetectorNewMesh...
+[2018.01.28-18.02.03:906][578]LogStaticMesh: Built static mesh [0.01s] /Game/X_Materials/Detector/DetectorNewMesh.DetectorNewMesh
+[2018.01.28-18.02.03:963][579]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/BananaTextures/T_Banana_DefaultMaterial_ORM.png)
+[2018.01.28-18.02.04:708][580]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/BananaTextures/T_Banana_DefaultMaterial_N.png)
+[2018.01.28-18.02.05:228][581]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/BananaTextures/T_Banana_DefaultMaterial_E.png)
+[2018.01.28-18.02.05:706][582]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/BananaTextures/T_Banana_DefaultMaterial_BC.png)
+[2018.01.28-18.02.06:518][583]LogFactory: FactoryCreateFile: DataTable with ReimportDataTableFactory (0 1 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/BananaTextures/Banana.json)
+[2018.01.28-18.02.10:102][584]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/Banana.FBX)
+[2018.01.28-18.02.10:105][584]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.01.28-18.02.10:105][584]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.01.28-18.02.10:105][584]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.01.28-18.02.10:105][584]LogFbx: ItemName: Model, ItemCount : 1
+[2018.01.28-18.02.10:105][584]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.01.28-18.02.10:110][584]LogFbx: Loading FBX Scene from D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/Banana.FBX
+[2018.01.28-18.02.10:116][584]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.28-18.02.11:569][584]LogFbx: Loading FBX Scene from D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/Banana.FBX
+[2018.01.28-18.02.11:576][584]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.28-18.02.11:577][584]LogStaticMesh: Building static mesh Banana...
+[2018.01.28-18.02.11:584][584]LogStaticMesh: Built static mesh [0.01s] /Game/X_Materials/Banana/Banana.Banana
+[2018.01.28-18.02.12:038][585]LogSavePackage: Save=333.59ms
+[2018.01.28-18.02.12:039][585]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/T_DetectorNewMesh_1001_ORM64AABD114F5E2075C5620097CC0FBF14.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorTexture/T_DetectorNewMesh_1001_ORM.uasset'
+[2018.01.28-18.02.12:046][585]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorTexture/T_DetectorNewMesh_1001_ORM.uasset
+[2018.01.28-18.02.12:391][585]LogSavePackage: Save=262.84ms
+[2018.01.28-18.02.12:391][585]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/T_DetectorNewMesh_1001_N6BB7FAD444408251B997999A21F8F899.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorTexture/T_DetectorNewMesh_1001_N.uasset'
+[2018.01.28-18.02.12:395][585]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorTexture/T_DetectorNewMesh_1001_N.uasset
+[2018.01.28-18.02.12:698][585]LogSavePackage: Save=213.69ms
+[2018.01.28-18.02.12:698][585]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/T_DetectorNewMesh_1001_HB051C9F54084DAA20299B8B480C0B5D0.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorTexture/T_DetectorNewMesh_1001_H.uasset'
+[2018.01.28-18.02.12:701][585]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorTexture/T_DetectorNewMesh_1001_H.uasset
+[2018.01.28-18.02.13:007][585]LogSavePackage: Save=208.63ms
+[2018.01.28-18.02.13:007][585]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/T_DetectorNewMesh_1001_E53ADCFC64A2C295064A8529C8469FA8F.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorTexture/T_DetectorNewMesh_1001_E.uasset'
+[2018.01.28-18.02.13:011][585]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorTexture/T_DetectorNewMesh_1001_E.uasset
+[2018.01.28-18.02.13:376][585]LogSavePackage: Save=293.81ms
+[2018.01.28-18.02.13:376][585]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/T_DetectorNewMesh_1001_BC64DC374942560CAE4F91219381D236EE.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorTexture/T_DetectorNewMesh_1001_BC.uasset'
+[2018.01.28-18.02.13:378][585]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorTexture/T_DetectorNewMesh_1001_BC.uasset
+[2018.01.28-18.02.13:446][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Materials/Detector/DetectorNewMesh" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorNewMesh.uasset" SILENT=true
+[2018.01.28-18.02.13:471][585]LogSavePackage: Save=21.90ms
+[2018.01.28-18.02.13:471][585]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/DetectorNewMeshB926DC3F442B7D59E61D6687248DB79C.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorNewMesh.uasset'
+[2018.01.28-18.02.13:473][585]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorNewMesh.uasset
+[2018.01.28-18.02.13:839][585]LogSavePackage: Save=306.11ms
+[2018.01.28-18.02.13:839][585]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/T_Banana_DefaultMaterial_ORM15192C1B46B061E20ADE94BDF496B396.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/BananaTextures/T_Banana_DefaultMaterial_ORM.uasset'
+[2018.01.28-18.02.13:844][585]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/BananaTextures/T_Banana_DefaultMaterial_ORM.uasset
+[2018.01.28-18.02.14:099][585]LogSavePackage: Save=187.84ms
+[2018.01.28-18.02.14:099][585]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/T_Banana_DefaultMaterial_NFA13B67C4C8009F46E8BB8A3182EB272.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/BananaTextures/T_Banana_DefaultMaterial_N.uasset'
+[2018.01.28-18.02.14:105][585]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/BananaTextures/T_Banana_DefaultMaterial_N.uasset
+[2018.01.28-18.02.14:395][585]LogSavePackage: Save=225.74ms
+[2018.01.28-18.02.14:395][585]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/T_Banana_DefaultMaterial_E726F6C2644C0E25F9DA8A6A3EF6E23A8.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/BananaTextures/T_Banana_DefaultMaterial_E.uasset'
+[2018.01.28-18.02.14:400][585]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/BananaTextures/T_Banana_DefaultMaterial_E.uasset
+[2018.01.28-18.02.15:001][585]LogSavePackage: Save=532.02ms
+[2018.01.28-18.02.15:001][585]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/T_Banana_DefaultMaterial_BC7388CB1742F07B9396270F92C653DC11.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/BananaTextures/T_Banana_DefaultMaterial_BC.uasset'
+[2018.01.28-18.02.15:005][585]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/BananaTextures/T_Banana_DefaultMaterial_BC.uasset
+[2018.01.28-18.02.15:075][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Materials/Banana/Banana" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/Banana.uasset" SILENT=true
+[2018.01.28-18.02.15:094][585]LogSavePackage: Save=16.57ms
+[2018.01.28-18.02.15:094][585]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Banana5D1ED08A4C7953DDEFB195B3D76089C2.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/Banana.uasset'
+[2018.01.28-18.02.15:097][585]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/Banana.uasset
+[2018.01.28-18.02.18:122][716]AssetReimport: Importing new asset /Game/X_Materials/Detector/DetectorTexture/T_DetectorNewMesh_1001_ORM.
+[2018.01.28-18.02.18:122][716]AssetReimport: Importing new asset /Game/X_Materials/Detector/DetectorTexture/T_DetectorNewMesh_1001_N.
+[2018.01.28-18.02.18:122][716]AssetReimport: Importing new asset /Game/X_Materials/Detector/DetectorTexture/T_DetectorNewMesh_1001_H.
+[2018.01.28-18.02.18:122][716]AssetReimport: Importing new asset /Game/X_Materials/Detector/DetectorTexture/T_DetectorNewMesh_1001_E.
+[2018.01.28-18.02.18:122][716]AssetReimport: Importing new asset /Game/X_Materials/Detector/DetectorTexture/T_DetectorNewMesh_1001_BC.
+[2018.01.28-18.02.18:122][716]AssetReimport: Importing new asset /Game/X_Materials/Detector/DetectorNewMesh.
+[2018.01.28-18.02.18:122][716]AssetReimport: Importing new asset /Game/X_Materials/Banana/BananaTextures/T_Banana_DefaultMaterial_ORM.
+[2018.01.28-18.02.18:122][716]AssetReimport: Importing new asset /Game/X_Materials/Banana/BananaTextures/T_Banana_DefaultMaterial_N.
+[2018.01.28-18.02.18:122][716]AssetReimport: Importing new asset /Game/X_Materials/Banana/BananaTextures/T_Banana_DefaultMaterial_E.
+[2018.01.28-18.02.18:122][716]AssetReimport: Importing new asset /Game/X_Materials/Banana/BananaTextures/T_Banana_DefaultMaterial_BC.
+[2018.01.28-18.02.18:122][716]AssetReimport: Importing new asset /Game/X_Materials/Banana/BananaTextures/Banana.
+[2018.01.28-18.02.18:122][716]AssetReimport: Failed to import file D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/BananaTextures/Banana.json.
+[2018.01.28-18.02.18:122][716]AssetReimport: Importing new asset /Game/X_Materials/Banana/Banana.
+[2018.01.28-18.02.57:089][828]LogMaterial: Missing cached shader map for material Banana_Mat, compiling. 
+[2018.01.28-18.02.57:148][828]LogMaterial: Missing cached shader map for material Banana_Mat, compiling. 
+[2018.01.28-18.02.57:163][828]LogMaterial: Missing cached shader map for material Banana_Mat, compiling. 
+[2018.01.28-18.03.01:256][850]MaterialEditorStats: Base pass shader: 145 instructions
+[2018.01.28-18.03.01:256][850]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 218 instructions
+[2018.01.28-18.03.01:256][850]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.01.28-18.03.01:256][850]MaterialEditorStats: Texture samplers: 2/16
+[2018.01.28-18.03.12:844][ 39]LogMaterial: Missing cached shader map for material Banana_Mat, compiling. 
+[2018.01.28-18.03.12:859][ 39]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
+[2018.01.28-18.03.12:890][ 39]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
+[2018.01.28-18.03.13:601][ 52]MaterialEditorStats: Base pass shader: 145 instructions
+[2018.01.28-18.03.13:601][ 52]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 218 instructions
+[2018.01.28-18.03.13:601][ 52]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.01.28-18.03.13:601][ 52]MaterialEditorStats: Texture samplers: 2/16
+[2018.01.28-18.03.20:554][142]LogMaterial: Missing cached shader map for material Banana_Mat, compiling. 
+[2018.01.28-18.03.20:587][142]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2018.01.28-18.03.20:624][142]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
+[2018.01.28-18.03.20:631][142]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2018.01.28-18.03.21:415][153]MaterialEditorStats: Base pass shader: 145 instructions
+[2018.01.28-18.03.21:416][153]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 218 instructions
+[2018.01.28-18.03.21:416][153]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.01.28-18.03.21:416][153]MaterialEditorStats: Texture samplers: 2/16
+[2018.01.28-18.03.31:191][353]LogMaterial: Missing cached shader map for material Banana_Mat, compiling. 
+[2018.01.28-18.03.31:210][353]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2018.01.28-18.03.31:923][377]MaterialEditorStats: Base pass shader: 151 instructions
+[2018.01.28-18.03.31:923][377]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 224 instructions
+[2018.01.28-18.03.31:923][377]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-18.03.31:923][377]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-18.03.31:923][377]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.03.37:129][598]LogMaterial: Missing cached shader map for material Banana_Mat, compiling. 
+[2018.01.28-18.03.37:144][598]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_30, compiling. 
+[2018.01.28-18.03.37:179][598]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
+[2018.01.28-18.03.37:183][598]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2018.01.28-18.03.37:187][598]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_30, compiling. 
+[2018.01.28-18.03.37:908][620]MaterialEditorStats: Base pass shader: 151 instructions
+[2018.01.28-18.03.37:908][620]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 224 instructions
+[2018.01.28-18.03.37:908][620]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-18.03.37:908][620]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-18.03.37:908][620]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.03.39:510][715]LogMaterial: Missing cached shader map for material Banana_Mat, compiling. 
+[2018.01.28-18.03.40:181][741]MaterialEditorStats: Base pass shader: 151 instructions
+[2018.01.28-18.03.40:181][741]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 224 instructions
+[2018.01.28-18.03.40:181][741]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-18.03.40:181][741]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-18.03.40:181][741]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.03.43:508][883]LogMaterial: Missing cached shader map for material Banana_Mat, compiling. 
+[2018.01.28-18.03.43:528][883]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_30, compiling. 
+[2018.01.28-18.03.44:234][905]MaterialEditorStats: Base pass shader: 151 instructions
+[2018.01.28-18.03.44:234][905]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 224 instructions
+[2018.01.28-18.03.44:234][905]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-18.03.44:234][905]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-18.03.44:234][905]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.03.45:990][983]LogMaterial: Missing cached shader map for material Banana_Mat, compiling. 
+[2018.01.28-18.03.46:698][  6]MaterialEditorStats: Base pass shader: 153 instructions
+[2018.01.28-18.03.46:698][  6]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 226 instructions
+[2018.01.28-18.03.46:698][  6]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-18.03.46:698][  6]MaterialEditorStats: Texture samplers: 4/16
+[2018.01.28-18.03.46:698][  6]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.03.49:260][115]LogMaterial: Missing cached shader map for material Banana_Mat, compiling. 
+[2018.01.28-18.03.49:901][136]MaterialEditorStats: Base pass shader: 153 instructions
+[2018.01.28-18.03.49:901][136]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 226 instructions
+[2018.01.28-18.03.49:901][136]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-18.03.49:901][136]MaterialEditorStats: Texture samplers: 4/16
+[2018.01.28-18.03.49:901][136]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.04.01:920][506]LogMaterial: Missing cached shader map for material Banana_Mat, compiling. 
+[2018.01.28-18.04.01:937][506]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2018.01.28-18.04.01:971][506]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
+[2018.01.28-18.04.01:976][506]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2018.01.28-18.04.01:981][506]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_30, compiling. 
+[2018.01.28-18.04.01:986][506]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2018.01.28-18.04.02:785][513]MaterialEditorStats: Base pass shader: 153 instructions
+[2018.01.28-18.04.02:785][513]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 226 instructions
+[2018.01.28-18.04.02:785][513]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-18.04.02:785][513]MaterialEditorStats: Texture samplers: 4/16
+[2018.01.28-18.04.02:785][513]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.04.36:719][168]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/GridWorld_02' took 0.035
+[2018.01.28-18.04.36:721][168]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/X_Materials/Detector/lambert1] ([1] browsable assets)...
+[2018.01.28-18.04.36:741][168]OBJ SavePackage:     Rendered thumbnail for [Material /Game/X_Materials/Detector/lambert1.lambert1]
+[2018.01.28-18.04.36:741][168]OBJ SavePackage: Finished generating thumbnails for package [/Game/X_Materials/Detector/lambert1]
+[2018.01.28-18.04.36:758][168]LogSavePackage: Save=15.28ms
+[2018.01.28-18.04.36:758][168]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/lambert1_Auto47822F0AE4AF0A48C44C12C8793AB015E.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Materials/Detector/lambert1_Auto4.uasset'
+[2018.01.28-18.04.36:758][168]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Materials/Detector/lambert1_Auto4.uasset
+[2018.01.28-18.04.36:759][168]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/X_Materials/Banana/BananaTextures/Banana_Mat] ([1] browsable assets)...
+[2018.01.28-18.04.36:768][168]OBJ SavePackage:     Rendered thumbnail for [Material /Game/X_Materials/Banana/BananaTextures/Banana_Mat.Banana_Mat]
+[2018.01.28-18.04.36:768][168]OBJ SavePackage: Finished generating thumbnails for package [/Game/X_Materials/Banana/BananaTextures/Banana_Mat]
+[2018.01.28-18.04.36:785][168]LogSavePackage: Save=15.58ms
+[2018.01.28-18.04.36:785][168]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Banana_Mat_Auto46DE9D00646A10D325445D5A5B5DA1927.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Materials/Banana/BananaTextures/Banana_Mat_Auto4.uasset'
+[2018.01.28-18.04.36:786][168]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Materials/Banana/BananaTextures/Banana_Mat_Auto4.uasset
+[2018.01.28-18.04.36:786][168]LogFileHelpers: Auto-saving content packages took 0.066
+[2018.01.28-18.04.44:004][521]LogMaterial: Missing cached shader map for material Banana_Mat, compiling. 
+[2018.01.28-18.04.44:026][521]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2018.01.28-18.04.45:310][569]MaterialEditorStats: Base pass shader: 156 instructions
+[2018.01.28-18.04.45:310][569]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 229 instructions
+[2018.01.28-18.04.45:310][569]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-18.04.45:310][569]MaterialEditorStats: Texture samplers: 5/16
+[2018.01.28-18.04.45:310][569]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.05.00:849][397]LogMaterial: Missing cached shader map for material Banana_Mat, compiling. 
+[2018.01.28-18.05.00:870][397]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
+[2018.01.28-18.05.01:603][426]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.01.28-18.05.01:603][426]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 237 instructions
+[2018.01.28-18.05.01:603][426]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-18.05.01:603][426]MaterialEditorStats: Texture samplers: 6/16
+[2018.01.28-18.05.01:603][426]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.05.03:813][552]LogMaterial: Missing cached shader map for material Banana_Mat, compiling. 
+[2018.01.28-18.05.03:832][552]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
+[2018.01.28-18.05.04:603][580]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.01.28-18.05.04:603][580]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 237 instructions
+[2018.01.28-18.05.04:603][580]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-18.05.04:603][580]MaterialEditorStats: Texture samplers: 6/16
+[2018.01.28-18.05.04:603][580]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.05.06:542][701]LogMaterial: Missing cached shader map for material Banana_Mat, compiling. 
+[2018.01.28-18.05.06:560][701]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
+[2018.01.28-18.05.07:295][731]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.01.28-18.05.07:295][731]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 239 instructions
+[2018.01.28-18.05.07:295][731]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-18.05.07:295][731]MaterialEditorStats: Texture samplers: 6/16
+[2018.01.28-18.05.07:295][731]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.05.12:742][ 87]LogMaterialEditor: Saving and Compiling material Banana_Mat
+[2018.01.28-18.05.13:237][ 87]LogMaterial: Missing cached shader map for material Banana_Mat, compiling. 
+[2018.01.28-18.05.13:281][ 87]LogMaterial: Missing cached shader map for material Banana_Mat, compiling. 
+[2018.01.28-18.05.13:307][ 87]LogMaterial: Missing cached shader map for material Banana_Mat, compiling. 
+[2018.01.28-18.05.13:369][ 87]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Banana_Mat, compiling. 
+[2018.01.28-18.05.14:109][ 87]TextureStreamingBuild: Display: Compiling optional shaders took 0.745 seconds.
+[2018.01.28-18.05.16:376][ 87]LogSavePackage: Save=21.38ms
+[2018.01.28-18.05.16:376][ 87]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Banana_Mat6D8D9BEC4F32356798D34C91BA2AC4FE.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/BananaTextures/Banana_Mat.uasset'
+[2018.01.28-18.05.16:381][ 87]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/BananaTextures/Banana_Mat.uasset
+[2018.01.28-18.05.16:397][ 87]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.01.28-18.05.16:397][ 87]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 239 instructions
+[2018.01.28-18.05.16:397][ 87]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-18.05.16:397][ 87]MaterialEditorStats: Texture samplers: 7/16
+[2018.01.28-18.05.16:397][ 87]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.06.02:092][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Materials/Banana/Banana" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/Banana.uasset" SILENT=true
+[2018.01.28-18.06.02:117][257]LogSavePackage: Save=15.32ms
+[2018.01.28-18.06.02:117][257]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Banana5CC45B48470716E4A51284A67AD0CE59.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/Banana.uasset'
+[2018.01.28-18.06.02:120][257]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Banana/Banana.uasset
+[2018.01.28-18.06.52:641][963]BlueprintLog: New page: Compile BP_PickupBanana
+[2018.01.28-18.06.54:397][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Meshes/BP_PickupBanana" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupBanana.uasset" SILENT=true
+[2018.01.28-18.06.54:431][ 45]LogSavePackage: Save=31.71ms
+[2018.01.28-18.06.54:431][ 45]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/BP_PickupBanana448D5F4B415EA53DA00CF9A3AEF59C42.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupBanana.uasset'
+[2018.01.28-18.06.54:433][ 45]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupBanana.uasset
+[2018.01.28-18.07.29:677][600]BlueprintLog: New page: Compile BP_PickupBanana
+[2018.01.28-18.07.31:003][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Meshes/BP_PickupBanana" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupBanana.uasset" SILENT=true
+[2018.01.28-18.07.31:044][683]LogSavePackage: Save=30.84ms
+[2018.01.28-18.07.31:044][683]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/BP_PickupBananaCDB2C4794D666ED247CDF0870A95D8D7.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupBanana.uasset'
+[2018.01.28-18.07.31:046][683]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupBanana.uasset
+[2018.01.28-18.07.41:976][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GridWorld_02" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.28-18.07.42:248][522]LogSavePackage: Save=224.57ms
+[2018.01.28-18.07.42:248][522]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/GridWorld_029FBBBBD942AD75CEAF5A968D12C81F52.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap'
+[2018.01.28-18.07.42:251][522]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap
+[2018.01.28-18.07.42:282][522]LogFileHelpers: Saving map 'GridWorld_02' took 0.391
+[2018.01.28-18.07.42:305][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Materials/Detector/lambert1" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/lambert1.uasset" SILENT=true
+[2018.01.28-18.07.42:322][522]LogSavePackage: Save=15.26ms
+[2018.01.28-18.07.42:322][522]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/lambert120823DEC485BA3F3B5CCF1B4E4D0E112.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/lambert1.uasset'
+[2018.01.28-18.07.42:324][522]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/lambert1.uasset
+[2018.01.28-18.08.21:838][ 85]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GridWorld_02" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.28-18.08.22:111][ 85]LogSavePackage: Save=226.31ms
+[2018.01.28-18.08.22:111][ 85]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/GridWorld_0275CCB1A2498578901372DFABDEC279F0.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap'
+[2018.01.28-18.08.22:114][ 85]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap
+[2018.01.28-18.08.22:142][ 85]LogFileHelpers: Saving map 'GridWorld_02' took 0.381
+[2018.01.28-18.10.46:636][329]LogTexture: Display: Building textures: whitePuff00 (BGRA8, 381X346)
+[2018.01.28-18.10.46:637][329]LogMaterial: Missing cached shader map for material Sonar, compiling. 
+[2018.01.28-18.10.54:566][566]BlueprintLog: New page: Compile MotionControllerPawn
+[2018.01.28-18.10.56:460][582]LogSavePackage: Save=174.57ms
+[2018.01.28-18.10.56:460][582]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/MotionControllerPawn67E9947B43CE5DC7C12C30ABB4291D02.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2018.01.28-18.10.56:468][582]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2018.01.28-18.11.18:235][695]LogTemp: Repeating last play command: VR Preview
+[2018.01.28-18.11.18:273][695]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02' with GeneratedClass '/Game/Maps/GridWorld_02.GridWorld_02_C' with ClassGeneratedBy '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02'
+[2018.01.28-18.11.18:274][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.28-18.11.18:274][695]LogHMD: Initializing OVRPlugin session
+[2018.01.28-18.11.18:337][695]PIE: New page: PIE session: GridWorld_02 (Jan 28, 2018, 8:11:18 AM)
+[2018.01.28-18.11.18:338][695]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GridWorld_02
+[2018.01.28-18.11.18:349][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011721s)
+[2018.01.28-18.11.18:350][695]LogAIModule: Creating AISystem for world GridWorld_02
+[2018.01.28-18.11.18:350][695]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2018.01.28-18.11.18:350][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GridWorld_02.GridWorld_02 to /Game/Maps/UEDPIE_0_GridWorld_02.GridWorld_02 (0.012714s)
+[2018.01.28-18.11.18:418][695]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.28-18.11.18:429][695]LogInit: FAudioDevice initialized.
+[2018.01.28-18.11.18:518][695]LogHMD: Allocating Oculus 2688 x 1584 rendertarget swapchain
+[2018.01.28-18.11.18:546][695]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.01.28-18.11.18:546][695]LogLoad: Game class is 'GameModeBase'
+[2018.01.28-18.11.18:549][695]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GridWorld_02.GridWorld_02 up for play (max tick rate 0) at 2018.01.28-13.11.18
+[2018.01.28-18.11.18:549][695]LogWorld: Bringing up level for play took: 0.002155
+[2018.01.28-18.11.18:556][695]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GridWorld_02 -0.106
+[2018.01.28-18.11.18:557][695]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02' with GeneratedClass '/Game/Maps/GridWorld_02.GridWorld_02_C' with ClassGeneratedBy '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02'
+[2018.01.28-18.11.18:560][695]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.01.28-18.11.18:560][695]LogHMD: Allocating Oculus 2688 x 1584 depth rendertarget swapchain
+[2018.01.28-18.12.35:735][ 68]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02' with GeneratedClass '/Game/Maps/GridWorld_02.GridWorld_02_C' with ClassGeneratedBy '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02'
+[2018.01.28-18.12.35:873][ 68]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02' with GeneratedClass '/Game/Maps/GridWorld_02.GridWorld_02_C' with ClassGeneratedBy '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02'
+[2018.01.28-18.12.39:551][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GridWorld_02" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.28-18.12.39:813][372]LogSavePackage: Save=231.71ms
+[2018.01.28-18.12.39:813][372]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/GridWorld_02F879BA4D4750F575E23C928A77BED60B.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap'
+[2018.01.28-18.12.39:818][372]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap
+[2018.01.28-18.12.39:840][372]LogFileHelpers: Saving map 'GridWorld_02' took 0.368
+[2018.01.28-18.13.31:186][994]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2018.01.28-18.14.26:388][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/fx_sonar" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/fx_sonar.uasset" SILENT=true
+[2018.01.28-18.14.26:410][110]LogSavePackage: Save=13.23ms
+[2018.01.28-18.14.26:410][110]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/fx_sonar1585FBC04830FD6F099D5DBBC1939D00.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/fx_sonar.uasset'
+[2018.01.28-18.14.26:412][110]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/fx_sonar.uasset
+[2018.01.28-18.14.57:999][527]LogEditorTransaction: Undo Modify Component(s)
+[2018.01.28-18.15.03:402][980]BlueprintLog: New page: Compile MotionControllerPawn
+[2018.01.28-18.15.04:729][ 35]LogSavePackage: Save=152.75ms
+[2018.01.28-18.15.04:729][ 35]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/MotionControllerPawnF3A002234809CB4A30FF359861D5ACE7.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2018.01.28-18.15.04:732][ 35]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2018.01.28-18.15.10:410][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GridWorld_02" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.28-18.15.10:693][418]LogSavePackage: Save=233.67ms
+[2018.01.28-18.15.10:693][418]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/GridWorld_02C3F897FC4C184DCAA3AFE08D5A84113D.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap'
+[2018.01.28-18.15.10:696][418]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap
+[2018.01.28-18.15.10:730][418]LogFileHelpers: Saving map 'GridWorld_02' took 0.405
+[2018.01.28-18.15.12:312][520]LogTemp: Repeating last play command: VR Preview
+[2018.01.28-18.15.12:330][520]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02' with GeneratedClass '/Game/Maps/GridWorld_02.GridWorld_02_C' with ClassGeneratedBy '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02'
+[2018.01.28-18.15.12:330][520]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.28-18.15.12:331][520]LogHMD: Initializing OVRPlugin session
+[2018.01.28-18.15.12:359][520]PIE: New page: PIE session: GridWorld_02 (Jan 28, 2018, 8:15:12 AM)
+[2018.01.28-18.15.12:360][520]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GridWorld_02
+[2018.01.28-18.15.12:370][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010488s)
+[2018.01.28-18.15.12:371][520]LogAIModule: Creating AISystem for world GridWorld_02
+[2018.01.28-18.15.12:371][520]LogPlayLevel: PIE: World Init took: (0.000562s)
+[2018.01.28-18.15.12:371][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GridWorld_02.GridWorld_02 to /Game/Maps/UEDPIE_0_GridWorld_02.GridWorld_02 (0.011295s)
+[2018.01.28-18.15.12:428][520]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.28-18.15.12:438][520]LogInit: FAudioDevice initialized.
+[2018.01.28-18.15.12:516][520]LogHMD: Allocating Oculus 2688 x 1584 rendertarget swapchain
+[2018.01.28-18.15.12:543][520]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.01.28-18.15.12:543][520]LogLoad: Game class is 'GameModeBase'
+[2018.01.28-18.15.12:545][520]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GridWorld_02.GridWorld_02 up for play (max tick rate 0) at 2018.01.28-13.15.12
+[2018.01.28-18.15.12:546][520]LogWorld: Bringing up level for play took: 0.002176
+[2018.01.28-18.15.12:552][520]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GridWorld_02 -0.11
+[2018.01.28-18.15.12:553][520]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02' with GeneratedClass '/Game/Maps/GridWorld_02.GridWorld_02_C' with ClassGeneratedBy '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02'
+[2018.01.28-18.15.12:555][520]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.01.28-18.15.12:555][520]LogHMD: Allocating Oculus 2688 x 1584 depth rendertarget swapchain
+[2018.01.28-18.15.58:932][ 86]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02' with GeneratedClass '/Game/Maps/GridWorld_02.GridWorld_02_C' with ClassGeneratedBy '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02'
+[2018.01.28-18.15.59:069][ 86]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02' with GeneratedClass '/Game/Maps/GridWorld_02.GridWorld_02_C' with ClassGeneratedBy '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02'
+[2018.01.28-18.16.29:131][394]BlueprintLog: New page: Compile MotionControllerPawn
+[2018.01.28-18.16.30:976][436]LogSavePackage: Save=146.43ms
+[2018.01.28-18.16.30:977][436]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/MotionControllerPawn6C9DDCB544766DD41581FF9C6FD79536.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2018.01.28-18.16.30:980][436]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2018.01.28-18.17.14:889][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/fx_sonar" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/fx_sonar.uasset" SILENT=true
+[2018.01.28-18.17.14:910][951]LogSavePackage: Save=16.68ms
+[2018.01.28-18.17.14:910][951]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/fx_sonar20D1A6D542F1E9598854BBAAC647CD1C.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/fx_sonar.uasset'
+[2018.01.28-18.17.14:912][951]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/fx_sonar.uasset
+[2018.01.28-18.17.21:294][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GridWorld_02" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.28-18.17.21:566][442]LogSavePackage: Save=229.03ms
+[2018.01.28-18.17.21:566][442]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/GridWorld_02C4334D9B4C0735ECA041A5BE59E87D31.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap'
+[2018.01.28-18.17.21:569][442]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap
+[2018.01.28-18.17.21:591][442]LogFileHelpers: Saving map 'GridWorld_02' took 0.378
+[2018.01.28-18.17.26:575][829]LogTemp: Repeating last play command: VR Preview
+[2018.01.28-18.17.26:596][829]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02' with GeneratedClass '/Game/Maps/GridWorld_02.GridWorld_02_C' with ClassGeneratedBy '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02'
+[2018.01.28-18.17.26:596][829]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.28-18.17.26:596][829]LogHMD: Initializing OVRPlugin session
+[2018.01.28-18.17.26:621][829]PIE: New page: PIE session: GridWorld_02 (Jan 28, 2018, 8:17:26 AM)
+[2018.01.28-18.17.26:621][829]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GridWorld_02
+[2018.01.28-18.17.26:632][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010608s)
+[2018.01.28-18.17.26:632][829]LogAIModule: Creating AISystem for world GridWorld_02
+[2018.01.28-18.17.26:632][829]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2018.01.28-18.17.26:633][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GridWorld_02.GridWorld_02 to /Game/Maps/UEDPIE_0_GridWorld_02.GridWorld_02 (0.011498s)
+[2018.01.28-18.17.26:680][829]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.28-18.17.26:690][829]LogInit: FAudioDevice initialized.
+[2018.01.28-18.17.26:768][829]LogHMD: Allocating Oculus 2688 x 1584 rendertarget swapchain
+[2018.01.28-18.17.26:795][829]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.01.28-18.17.26:795][829]LogLoad: Game class is 'GameModeBase'
+[2018.01.28-18.17.26:797][829]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GridWorld_02.GridWorld_02 up for play (max tick rate 0) at 2018.01.28-13.17.26
+[2018.01.28-18.17.26:798][829]LogWorld: Bringing up level for play took: 0.002237
+[2018.01.28-18.17.26:805][829]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GridWorld_02 0.143
+[2018.01.28-18.17.26:805][829]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02' with GeneratedClass '/Game/Maps/GridWorld_02.GridWorld_02_C' with ClassGeneratedBy '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02'
+[2018.01.28-18.17.26:809][829]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.01.28-18.17.26:809][829]LogHMD: Allocating Oculus 2688 x 1584 depth rendertarget swapchain
+[2018.01.28-18.18.06:691][741]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02' with GeneratedClass '/Game/Maps/GridWorld_02.GridWorld_02_C' with ClassGeneratedBy '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02'
+[2018.01.28-18.18.06:830][741]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02' with GeneratedClass '/Game/Maps/GridWorld_02.GridWorld_02_C' with ClassGeneratedBy '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02'
+[2018.01.28-18.19.31:120][738]LogTemp: Repeating last play command: VR Preview
+[2018.01.28-18.19.31:136][738]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02' with GeneratedClass '/Game/Maps/GridWorld_02.GridWorld_02_C' with ClassGeneratedBy '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02'
+[2018.01.28-18.19.31:136][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.28-18.19.31:136][738]LogHMD: Initializing OVRPlugin session
+[2018.01.28-18.19.31:165][738]PIE: New page: PIE session: GridWorld_02 (Jan 28, 2018, 8:19:31 AM)
+[2018.01.28-18.19.31:165][738]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GridWorld_02
+[2018.01.28-18.19.31:176][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010998s)
+[2018.01.28-18.19.31:177][738]LogAIModule: Creating AISystem for world GridWorld_02
+[2018.01.28-18.19.31:177][738]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2018.01.28-18.19.31:177][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GridWorld_02.GridWorld_02 to /Game/Maps/UEDPIE_0_GridWorld_02.GridWorld_02 (0.011955s)
+[2018.01.28-18.19.31:216][738]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.28-18.19.31:226][738]LogInit: FAudioDevice initialized.
+[2018.01.28-18.19.31:301][738]LogHMD: Allocating Oculus 2688 x 1584 rendertarget swapchain
+[2018.01.28-18.19.31:330][738]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.01.28-18.19.31:330][738]LogLoad: Game class is 'GameModeBase'
+[2018.01.28-18.19.31:332][738]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GridWorld_02.GridWorld_02 up for play (max tick rate 0) at 2018.01.28-13.19.31
+[2018.01.28-18.19.31:333][738]LogWorld: Bringing up level for play took: 0.002305
+[2018.01.28-18.19.31:340][738]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GridWorld_02 0.678
+[2018.01.28-18.19.31:340][738]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02' with GeneratedClass '/Game/Maps/GridWorld_02.GridWorld_02_C' with ClassGeneratedBy '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02'
+[2018.01.28-18.19.31:344][738]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.01.28-18.19.31:344][738]LogHMD: Allocating Oculus 2688 x 1584 depth rendertarget swapchain
+[2018.01.28-18.20.58:779][983]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02' with GeneratedClass '/Game/Maps/GridWorld_02.GridWorld_02_C' with ClassGeneratedBy '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02'
+[2018.01.28-18.20.58:937][983]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02' with GeneratedClass '/Game/Maps/GridWorld_02.GridWorld_02_C' with ClassGeneratedBy '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02'
+[2018.01.28-18.21.31:030][677]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.01.28-18.21.32:839][747]LogCascade: Quitting Cascade. FXSystem=0x00000240161FC0E0
