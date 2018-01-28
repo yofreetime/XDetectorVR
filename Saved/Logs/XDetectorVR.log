@@ -898,3 +898,7 @@ LogInit: Object subsystem initialized
 [2018.01.28-14.33.52:906][665]LogSavePackage: Save=42.93ms
 [2018.01.28-14.33.52:906][665]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Grid_OpacDBF2516349640D40736EC88EF30F312E.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Grid_Opac.uasset'
 [2018.01.28-14.33.52:910][665]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Grid_Opac.uasset
+[2018.01.28-14.34.57:087][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Interface/Splash_Screen" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/Splash_Screen.uasset" SILENT=true
+[2018.01.28-14.34.57:100][468]LogSavePackage: Save=11.64ms
+[2018.01.28-14.34.57:100][468]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Splash_Screen8058D8834D2E5A471AEE11B52CB0214A.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/Splash_Screen.uasset'
+[2018.01.28-14.34.57:104][468]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/Splash_Screen.uasset
