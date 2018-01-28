@@ -906,3 +906,125 @@ LogInit: Object subsystem initialized
 [2018.01.28-14.37.00:913][848]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
 [2018.01.28-14.37.10:455][981]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush13)
 [2018.01.28-14.37.32:228][473]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2018.01.28-14.41.12:116][970]AssetReimport: New page: Outstanding source content changes 4:41:12 AM
+[2018.01.28-14.41.12:118][970]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Italiano-button.png)
+[2018.01.28-14.41.12:198][971]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Italiano-button-glow.png)
+[2018.01.28-14.41.12:269][972]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Inizio-Button.png)
+[2018.01.28-14.41.12:355][973]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/English-Button-Glow.png)
+[2018.01.28-14.41.12:884][974]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Inizio-Button-Glow.png)
+[2018.01.28-14.41.13:002][975]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Deutchse-Button.png)
+[2018.01.28-14.41.13:103][976]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/English-Button.png)
+[2018.01.28-14.41.13:182][977]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Deutchse-Button-Glow.png)
+[2018.01.28-14.41.13:303][978]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Options-Button-Glow.png)
+[2018.01.28-14.41.13:376][979]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Options-Button.png)
+[2018.01.28-14.41.13:442][980]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Opzioni-Button-Glow.png)
+[2018.01.28-14.41.13:530][981]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Opzioni-Button.png)
+[2018.01.28-14.41.13:611][982]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Quit-Button-Glow.png)
+[2018.01.28-14.41.13:979][983]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Quit-Button.png)
+[2018.01.28-14.41.14:045][984]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Start-Button-Glow.png)
+[2018.01.28-14.41.14:174][985]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Start-Button.png)
+[2018.01.28-14.41.14:268][986]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/TITLE.png)
+[2018.01.28-14.41.17:123][987]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/anfang-button-glow.png)
+[2018.01.28-14.41.17:259][988]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/anfang-button.png)
+[2018.01.28-14.41.17:390][989]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/ende-button-glow.png)
+[2018.01.28-14.41.17:489][990]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/ende-button.png)
+[2018.01.28-14.41.17:572][991]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/optionen-button-glow.png)
+[2018.01.28-14.41.17:680][992]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/optionen-button.png)
+[2018.01.28-14.41.17:839][993]LogSavePackage: Save=31.84ms
+[2018.01.28-14.41.17:839][993]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Italiano-button41E361494DCA30CDE9FEA5A62B4B7A70.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Italiano-button.uasset'
+[2018.01.28-14.41.17:841][993]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Italiano-button.uasset
+[2018.01.28-14.41.17:935][993]LogSavePackage: Save=48.58ms
+[2018.01.28-14.41.17:935][993]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Italiano-button-glow5E3AB98842CAEA4DAF340081F2A59BAD.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Italiano-button-glow.uasset'
+[2018.01.28-14.41.17:938][993]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Italiano-button-glow.uasset
+[2018.01.28-14.41.17:979][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Interface/X-DetectorButtons/Inizio-Button" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Inizio-Button.uasset" SILENT=true
+[2018.01.28-14.41.18:026][993]LogSavePackage: Save=44.93ms
+[2018.01.28-14.41.18:026][993]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Inizio-Button9E659A7E4404883D89C682A02AFEC777.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Inizio-Button.uasset'
+[2018.01.28-14.41.18:029][993]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Inizio-Button.uasset
+[2018.01.28-14.41.18:129][993]LogSavePackage: Save=47.91ms
+[2018.01.28-14.41.18:129][993]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/English-Button-Glow1F989FBD4AE2A0CD7161C1962773A660.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/English-Button-Glow.uasset'
+[2018.01.28-14.41.18:132][993]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/English-Button-Glow.uasset
+[2018.01.28-14.41.18:249][993]LogSavePackage: Save=67.69ms
+[2018.01.28-14.41.18:249][993]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Inizio-Button-GlowB5D495234AE9792C0C4AACAA18DA6ED8.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Inizio-Button-Glow.uasset'
+[2018.01.28-14.41.18:252][993]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Inizio-Button-Glow.uasset
+[2018.01.28-14.41.18:330][993]LogSavePackage: Save=39.78ms
+[2018.01.28-14.41.18:330][993]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Deutchse-Button0B08204F4414230D4E57A9AFE9B73525.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Deutchse-Button.uasset'
+[2018.01.28-14.41.18:333][993]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Deutchse-Button.uasset
+[2018.01.28-14.41.18:413][993]LogSavePackage: Save=31.84ms
+[2018.01.28-14.41.18:413][993]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/English-Button7DD447BD42B081DAA5F22993D77584B5.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/English-Button.uasset'
+[2018.01.28-14.41.18:416][993]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/English-Button.uasset
+[2018.01.28-14.41.18:517][993]LogSavePackage: Save=53.04ms
+[2018.01.28-14.41.18:517][993]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Deutchse-Button-Glow3AF6A1424B71C05A0838788834FF98B2.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Deutchse-Button-Glow.uasset'
+[2018.01.28-14.41.18:520][993]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Deutchse-Button-Glow.uasset
+[2018.01.28-14.41.18:627][993]LogSavePackage: Save=66.25ms
+[2018.01.28-14.41.18:627][993]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Options-Button-GlowB1068F0445B26EAAD8A05791EB056B89.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Options-Button-Glow.uasset'
+[2018.01.28-14.41.18:629][993]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Options-Button-Glow.uasset
+[2018.01.28-14.41.18:709][993]LogSavePackage: Save=28.50ms
+[2018.01.28-14.41.18:709][993]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Options-Button34D8B11E444DC725641FABA1C77B9B96.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Options-Button.uasset'
+[2018.01.28-14.41.18:711][993]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Options-Button.uasset
+[2018.01.28-14.41.18:784][993]LogSavePackage: Save=43.06ms
+[2018.01.28-14.41.18:784][993]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Opzioni-Button-Glow324BE78B4A55455C2FB563A40C6951AB.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Opzioni-Button-Glow.uasset'
+[2018.01.28-14.41.18:787][993]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Opzioni-Button-Glow.uasset
+[2018.01.28-14.41.18:863][993]LogSavePackage: Save=43.14ms
+[2018.01.28-14.41.18:863][993]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Opzioni-Button399B6DC645427C73247F6F8FA6786F49.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Opzioni-Button.uasset'
+[2018.01.28-14.41.18:865][993]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Opzioni-Button.uasset
+[2018.01.28-14.41.18:957][993]LogSavePackage: Save=43.55ms
+[2018.01.28-14.41.18:957][993]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Quit-Button-GlowBE889E6F49CA27063813FB85AC4A5DE4.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Quit-Button-Glow.uasset'
+[2018.01.28-14.41.18:960][993]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Quit-Button-Glow.uasset
+[2018.01.28-14.41.19:003][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Interface/X-DetectorButtons/Quit-Button" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Quit-Button.uasset" SILENT=true
+[2018.01.28-14.41.19:030][993]LogSavePackage: Save=25.45ms
+[2018.01.28-14.41.19:030][993]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Quit-Button3CDAB2ED42692E80C611C18FB10826F7.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Quit-Button.uasset'
+[2018.01.28-14.41.19:033][993]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Quit-Button.uasset
+[2018.01.28-14.41.19:140][993]LogSavePackage: Save=65.19ms
+[2018.01.28-14.41.19:140][993]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Start-Button-Glow73863E774A582C5073B043A4EC8DADBA.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Start-Button-Glow.uasset'
+[2018.01.28-14.41.19:143][993]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Start-Button-Glow.uasset
+[2018.01.28-14.41.19:186][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Interface/X-DetectorButtons/Start-Button" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Start-Button.uasset" SILENT=true
+[2018.01.28-14.41.19:229][993]LogSavePackage: Save=41.60ms
+[2018.01.28-14.41.19:229][993]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Start-Button3D2C49AB48524A49C3F505917421D750.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Start-Button.uasset'
+[2018.01.28-14.41.19:232][993]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/Start-Button.uasset
+[2018.01.28-14.41.19:285][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Interface/X-DetectorButtons/TITLE" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/TITLE.uasset" SILENT=true
+[2018.01.28-14.41.19:527][993]LogSavePackage: Save=240.55ms
+[2018.01.28-14.41.19:527][993]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/TITLE44C12DEC4836569EF83A5EAD8A99CD7F.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/TITLE.uasset'
+[2018.01.28-14.41.19:530][993]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/TITLE.uasset
+[2018.01.28-14.41.19:753][993]LogSavePackage: Save=185.98ms
+[2018.01.28-14.41.19:755][993]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/anfang-button-glowBAB73F2141009DE6A3DE388F44E81178.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/anfang-button-glow.uasset'
+[2018.01.28-14.41.19:760][993]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/anfang-button-glow.uasset
+[2018.01.28-14.41.19:838][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Interface/X-DetectorButtons/anfang-button" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/anfang-button.uasset" SILENT=true
+[2018.01.28-14.41.19:913][993]LogSavePackage: Save=71.47ms
+[2018.01.28-14.41.19:913][993]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/anfang-button4971FF554E95C5E7087BB0872BB4CD17.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/anfang-button.uasset'
+[2018.01.28-14.41.19:915][993]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/anfang-button.uasset
+[2018.01.28-14.41.19:999][993]LogSavePackage: Save=42.62ms
+[2018.01.28-14.41.19:999][993]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/ende-button-glow9931C5CB41D40C5EC2DF83BF4736542A.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/ende-button-glow.uasset'
+[2018.01.28-14.41.20:003][993]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/ende-button-glow.uasset
+[2018.01.28-14.41.20:041][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Interface/X-DetectorButtons/ende-button" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/ende-button.uasset" SILENT=true
+[2018.01.28-14.41.20:074][993]LogSavePackage: Save=30.40ms
+[2018.01.28-14.41.20:074][993]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/ende-buttonD034DEAB419919EC07F42081DDE667C1.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/ende-button.uasset'
+[2018.01.28-14.41.20:076][993]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/ende-button.uasset
+[2018.01.28-14.41.20:159][993]LogSavePackage: Save=47.66ms
+[2018.01.28-14.41.20:159][993]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/optionen-button-glow35D2B0BF4A96A0B54CE0378B0F3D7F45.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/optionen-button-glow.uasset'
+[2018.01.28-14.41.20:162][993]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/optionen-button-glow.uasset
+[2018.01.28-14.41.20:233][993]LogSavePackage: Save=28.39ms
+[2018.01.28-14.41.20:234][993]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/optionen-button74EE64034FD44B452CB676A06E9C4F5D.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/optionen-button.uasset'
+[2018.01.28-14.41.20:236][993]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/X-DetectorButtons/optionen-button.uasset
+[2018.01.28-14.41.23:255][227]AssetReimport: Importing new asset /Game/X_Interface/X-DetectorButtons/Italiano-button.
+[2018.01.28-14.41.23:255][227]AssetReimport: Importing new asset /Game/X_Interface/X-DetectorButtons/Italiano-button-glow.
+[2018.01.28-14.41.23:255][227]AssetReimport: Importing new asset /Game/X_Interface/X-DetectorButtons/Inizio-Button.
+[2018.01.28-14.41.23:255][227]AssetReimport: Importing new asset /Game/X_Interface/X-DetectorButtons/English-Button-Glow.
+[2018.01.28-14.41.23:255][227]AssetReimport: Importing new asset /Game/X_Interface/X-DetectorButtons/Inizio-Button-Glow.
+[2018.01.28-14.41.23:255][227]AssetReimport: Importing new asset /Game/X_Interface/X-DetectorButtons/Deutchse-Button.
+[2018.01.28-14.41.23:255][227]AssetReimport: Importing new asset /Game/X_Interface/X-DetectorButtons/English-Button.
+[2018.01.28-14.41.23:255][227]AssetReimport: Importing new asset /Game/X_Interface/X-DetectorButtons/Deutchse-Button-Glow.
+[2018.01.28-14.41.23:255][227]AssetReimport: Importing new asset /Game/X_Interface/X-DetectorButtons/Options-Button-Glow.
+[2018.01.28-14.41.23:255][227]AssetReimport: Importing new asset /Game/X_Interface/X-DetectorButtons/Options-Button.
+[2018.01.28-14.41.23:255][227]AssetReimport: Importing new asset /Game/X_Interface/X-DetectorButtons/Opzioni-Button-Glow.
+[2018.01.28-14.41.23:255][227]AssetReimport: Importing new asset /Game/X_Interface/X-DetectorButtons/Opzioni-Button.
+[2018.01.28-14.41.23:255][227]AssetReimport: Importing new asset /Game/X_Interface/X-DetectorButtons/Quit-Button-Glow.
+[2018.01.28-14.41.23:255][227]AssetReimport: Importing new asset /Game/X_Interface/X-DetectorButtons/Quit-Button.
+[2018.01.28-14.41.23:255][227]AssetReimport: Importing new asset /Game/X_Interface/X-DetectorButtons/Start-Button-Glow.
+[2018.01.28-14.41.23:255][227]AssetReimport: Importing new asset /Game/X_Interface/X-DetectorButtons/Start-Button.
+[2018.01.28-14.41.23:255][227]AssetReimport: Importing new asset /Game/X_Interface/X-DetectorButtons/TITLE.
+[2018.01.28-14.41.23:255][227]AssetReimport: Importing new asset /Game/X_Interface/X-DetectorButtons/anfang-button-glow.
+[2018.01.28-14.41.23:255][227]AssetReimport: Importing new asset /Game/X_Interface/X-DetectorButtons/anfang-button.
+[2018.01.28-14.41.23:255][227]AssetReimport: Importing new asset /Game/X_Interface/X-DetectorButtons/ende-button-glow.
+[2018.01.28-14.41.23:255][227]AssetReimport: Importing new asset /Game/X_Interface/X-DetectorButtons/ende-button.
+[2018.01.28-14.41.23:255][227]AssetReimport: Importing new asset /Game/X_Interface/X-DetectorButtons/optionen-button-glow.
+[2018.01.28-14.41.23:255][227]AssetReimport: Importing new asset /Game/X_Interface/X-DetectorButtons/optionen-button.
