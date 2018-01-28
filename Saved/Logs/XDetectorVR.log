@@ -2629,3 +2629,143 @@ LogInit: Object subsystem initialized
 [2018.01.28-18.20.58:937][983]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02' with GeneratedClass '/Game/Maps/GridWorld_02.GridWorld_02_C' with ClassGeneratedBy '/Game/Maps/GridWorld_02.GridWorld_02:PersistentLevel.GridWorld_02'
 [2018.01.28-18.21.31:030][677]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2018.01.28-18.21.32:839][747]LogCascade: Quitting Cascade. FXSystem=0x00000240161FC0E0
+[2018.01.28-18.44.40:360][169]LogMaterial: Missing cached shader map for material Detector_Mat, compiling. 
+[2018.01.28-18.44.40:447][169]LogMaterial: Missing cached shader map for material Detector_Mat, compiling. 
+[2018.01.28-18.44.40:462][169]LogMaterial: Missing cached shader map for material Detector_Mat, compiling. 
+[2018.01.28-18.44.41:726][205]MaterialEditorStats: Base pass shader: 145 instructions
+[2018.01.28-18.44.41:726][205]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 218 instructions
+[2018.01.28-18.44.41:726][205]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.01.28-18.44.41:726][205]MaterialEditorStats: Texture samplers: 2/16
+[2018.01.28-18.44.50:062][429]LogMaterial: Missing cached shader map for material Detector_Mat, compiling. 
+[2018.01.28-18.44.50:078][429]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2018.01.28-18.44.50:115][429]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2018.01.28-18.44.50:813][448]MaterialEditorStats: Base pass shader: 145 instructions
+[2018.01.28-18.44.50:813][448]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 218 instructions
+[2018.01.28-18.44.50:813][448]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.01.28-18.44.50:813][448]MaterialEditorStats: Texture samplers: 2/16
+[2018.01.28-18.44.53:256][505]LogMaterial: Missing cached shader map for material Detector_Mat, compiling. 
+[2018.01.28-18.44.53:270][505]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2018.01.28-18.44.53:305][505]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2018.01.28-18.44.53:309][505]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2018.01.28-18.44.54:025][520]MaterialEditorStats: Base pass shader: 145 instructions
+[2018.01.28-18.44.54:025][520]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 218 instructions
+[2018.01.28-18.44.54:025][520]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.01.28-18.44.54:025][520]MaterialEditorStats: Texture samplers: 2/16
+[2018.01.28-18.44.56:930][583]LogMaterial: Missing cached shader map for material Detector_Mat, compiling. 
+[2018.01.28-18.44.56:963][583]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2018.01.28-18.44.57:843][615]MaterialEditorStats: Base pass shader: 151 instructions
+[2018.01.28-18.44.57:843][615]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 224 instructions
+[2018.01.28-18.44.57:843][615]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-18.44.57:843][615]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-18.44.57:843][615]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.44.59:820][719]LogMaterial: Missing cached shader map for material Detector_Mat, compiling. 
+[2018.01.28-18.44.59:838][719]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2018.01.28-18.45.00:557][740]MaterialEditorStats: Base pass shader: 151 instructions
+[2018.01.28-18.45.00:557][740]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 228 instructions
+[2018.01.28-18.45.00:557][740]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-18.45.00:557][740]MaterialEditorStats: Texture samplers: 4/16
+[2018.01.28-18.45.00:557][740]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.45.02:893][832]LogMaterial: Missing cached shader map for material Detector_Mat, compiling. 
+[2018.01.28-18.45.02:913][832]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2018.01.28-18.45.03:733][859]MaterialEditorStats: Base pass shader: 153 instructions
+[2018.01.28-18.45.03:733][859]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 228 instructions
+[2018.01.28-18.45.03:733][859]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-18.45.03:733][859]MaterialEditorStats: Texture samplers: 4/16
+[2018.01.28-18.45.03:733][859]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.45.05:718][944]LogMaterial: Missing cached shader map for material Detector_Mat, compiling. 
+[2018.01.28-18.45.05:741][944]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2018.01.28-18.45.06:445][966]MaterialEditorStats: Base pass shader: 158 instructions
+[2018.01.28-18.45.06:445][966]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 234 instructions
+[2018.01.28-18.45.06:445][966]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-18.45.06:445][966]MaterialEditorStats: Texture samplers: 4/16
+[2018.01.28-18.45.06:445][966]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.45.08:600][ 53]LogMaterial: Missing cached shader map for material Detector_Mat, compiling. 
+[2018.01.28-18.45.08:614][ 53]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_34, compiling. 
+[2018.01.28-18.45.08:648][ 53]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2018.01.28-18.45.08:652][ 53]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2018.01.28-18.45.08:656][ 53]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_34, compiling. 
+[2018.01.28-18.45.09:375][ 74]MaterialEditorStats: Base pass shader: 158 instructions
+[2018.01.28-18.45.09:375][ 74]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 234 instructions
+[2018.01.28-18.45.09:375][ 74]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-18.45.09:375][ 74]MaterialEditorStats: Texture samplers: 4/16
+[2018.01.28-18.45.09:375][ 74]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.45.13:470][286]LogMaterial: Missing cached shader map for material Detector_Mat, compiling. 
+[2018.01.28-18.45.13:506][286]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_34, compiling. 
+[2018.01.28-18.45.15:531][363]LogMaterial: Missing cached shader map for material Detector_Mat, compiling. 
+[2018.01.28-18.45.15:554][363]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_35, compiling. 
+[2018.01.28-18.45.15:585][363]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2018.01.28-18.45.15:589][363]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2018.01.28-18.45.15:593][363]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_34, compiling. 
+[2018.01.28-18.45.15:597][363]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_35, compiling. 
+[2018.01.28-18.45.16:502][387]MaterialEditorStats: Base pass shader: 158 instructions
+[2018.01.28-18.45.16:502][387]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 234 instructions
+[2018.01.28-18.45.16:502][387]MaterialEditorStats: Vertex shader: 89 instructions
+[2018.01.28-18.45.16:502][387]MaterialEditorStats: Texture samplers: 4/16
+[2018.01.28-18.45.16:502][387]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.45.17:607][448]LogMaterial: Missing cached shader map for material Detector_Mat, compiling. 
+[2018.01.28-18.45.18:505][481]MaterialEditorStats: Base pass shader: 158 instructions
+[2018.01.28-18.45.18:505][481]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 234 instructions
+[2018.01.28-18.45.18:505][481]MaterialEditorStats: Vertex shader: 89 instructions
+[2018.01.28-18.45.18:505][481]MaterialEditorStats: Texture samplers: 4/16
+[2018.01.28-18.45.18:505][481]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.45.20:656][579]LogMaterial: Missing cached shader map for material Detector_Mat, compiling. 
+[2018.01.28-18.45.20:686][579]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_35, compiling. 
+[2018.01.28-18.45.21:576][604]MaterialEditorStats: Base pass shader: 158 instructions
+[2018.01.28-18.45.21:576][604]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 234 instructions
+[2018.01.28-18.45.21:576][604]MaterialEditorStats: Vertex shader: 89 instructions
+[2018.01.28-18.45.21:576][604]MaterialEditorStats: Texture samplers: 4/16
+[2018.01.28-18.45.21:576][604]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.45.23:309][682]LogMaterial: Missing cached shader map for material Detector_Mat, compiling. 
+[2018.01.28-18.45.24:269][711]MaterialEditorStats: Base pass shader: 160 instructions
+[2018.01.28-18.45.24:269][711]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 236 instructions
+[2018.01.28-18.45.24:269][711]MaterialEditorStats: Vertex shader: 89 instructions
+[2018.01.28-18.45.24:269][711]MaterialEditorStats: Texture samplers: 5/16
+[2018.01.28-18.45.24:269][711]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.45.26:273][796]LogMaterial: Missing cached shader map for material Detector_Mat, compiling. 
+[2018.01.28-18.45.27:177][818]MaterialEditorStats: Base pass shader: 160 instructions
+[2018.01.28-18.45.27:177][818]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 236 instructions
+[2018.01.28-18.45.27:177][818]MaterialEditorStats: Vertex shader: 89 instructions
+[2018.01.28-18.45.27:177][818]MaterialEditorStats: Texture samplers: 5/16
+[2018.01.28-18.45.27:177][818]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.45.30:548][933]LogMaterial: Missing cached shader map for material Detector_Mat, compiling. 
+[2018.01.28-18.45.30:571][933]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_36, compiling. 
+[2018.01.28-18.45.30:602][933]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2018.01.28-18.45.30:606][933]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2018.01.28-18.45.30:610][933]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_34, compiling. 
+[2018.01.28-18.45.30:614][933]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_35, compiling. 
+[2018.01.28-18.45.30:618][933]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_36, compiling. 
+[2018.01.28-18.45.33:344][ 10]LogMaterial: Missing cached shader map for material Detector_Mat, compiling. 
+[2018.01.28-18.45.33:378][ 10]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_36, compiling. 
+[2018.01.28-18.45.34:263][ 34]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.01.28-18.45.34:264][ 34]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 239 instructions
+[2018.01.28-18.45.34:264][ 34]MaterialEditorStats: Vertex shader: 89 instructions
+[2018.01.28-18.45.34:264][ 34]MaterialEditorStats: Texture samplers: 6/16
+[2018.01.28-18.45.34:264][ 34]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.45.36:103][145]LogMaterialEditor: Saving and Compiling material Detector_Mat
+[2018.01.28-18.45.36:604][145]LogMaterial: Missing cached shader map for material Detector_Mat, compiling. 
+[2018.01.28-18.45.36:684][145]LogMaterial: Missing cached shader map for material Detector_Mat, compiling. 
+[2018.01.28-18.45.36:735][145]LogMaterial: Missing cached shader map for material Detector_Mat, compiling. 
+[2018.01.28-18.45.36:827][145]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Detector_Mat, compiling. 
+[2018.01.28-18.45.37:494][145]TextureStreamingBuild: Display: Compiling optional shaders took 0.675 seconds.
+[2018.01.28-18.45.39:973][145]LogSavePackage: Save=19.84ms
+[2018.01.28-18.45.39:973][145]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Detector_Mat969B1E51459B44A5E690D180EC07D24B.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorTexture/Detector_Mat.uasset'
+[2018.01.28-18.45.39:977][145]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorTexture/Detector_Mat.uasset
+[2018.01.28-18.45.40:013][145]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.01.28-18.45.40:013][145]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 239 instructions
+[2018.01.28-18.45.40:013][145]MaterialEditorStats: Vertex shader: 130 instructions
+[2018.01.28-18.45.40:013][145]MaterialEditorStats: Texture samplers: 7/16
+[2018.01.28-18.45.40:013][145]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-18.46.01:414][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Materials/Detector/DetectorNewMesh" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorNewMesh.uasset" SILENT=true
+[2018.01.28-18.46.01:439][163]LogSavePackage: Save=15.64ms
+[2018.01.28-18.46.01:439][163]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/DetectorNewMeshC625749C4AF9200C30871886370CC500.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorNewMesh.uasset'
+[2018.01.28-18.46.01:441][163]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Detector/DetectorNewMesh.uasset
+[2018.01.28-18.46.50:546][761]BlueprintLog: New page: Compile BP_PickupDetector
+[2018.01.28-18.46.54:650][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Meshes/BP_PickupDetector" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupDetector.uasset" SILENT=true
+[2018.01.28-18.46.54:684][ 36]LogSavePackage: Save=31.68ms
+[2018.01.28-18.46.54:684][ 36]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/BP_PickupDetectorD316C7044CBFCF97505717B1948C855C.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupDetector.uasset'
+[2018.01.28-18.46.54:686][ 36]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupDetector.uasset
+[2018.01.28-18.47.49:432][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GridWorld_02" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.28-18.47.49:714][963]LogSavePackage: Save=231.00ms
+[2018.01.28-18.47.49:714][963]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/GridWorld_02D0EE5E1541BA68C9339BEE8B26371A4C.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap'
+[2018.01.28-18.47.49:717][963]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap
+[2018.01.28-18.47.49:753][963]LogFileHelpers: Saving map 'GridWorld_02' took 0.403
