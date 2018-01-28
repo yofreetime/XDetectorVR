@@ -640,3 +640,225 @@ LogInit: Object subsystem initialized
 [2018.01.28-14.15.31:897][112]LogSavePackage: Save=98.94ms
 [2018.01.28-14.15.31:897][112]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/GridWorld_BuiltDataBF28D09D46BEF103C59C2D976449CE87.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_BuiltData.uasset'
 [2018.01.28-14.15.31:898][112]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_BuiltData.uasset
+[2018.01.28-14.19.59:535][ 44]LogEditorFactories: Performing atomic reimport of [D:/Misc/Global Game Jam 2018/Images/Grid_Purple2.png]
+[2018.01.28-14.19.59:548][ 44]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/Images/Grid_Purple2.png)
+[2018.01.28-14.19.59:592][ 44]LogTexture: Display: Building textures: Grid_Purple2 (AutoDXT, 1024X1024)
+[2018.01.28-14.19.59:694][ 44]LogEditorFactories: -- imported successfully
+[2018.01.28-14.20.36:666][324]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Misc\Global Game Jam 2018\Images\Grid_Opac.png)
+[2018.01.28-14.20.36:712][324]LogTexture: Display: Building textures: Grid_Opac (AutoDXT, 1024X1024)
+[2018.01.28-14.20.43:354][571]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.28-14.20.43:375][571]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.01.28-14.20.43:408][571]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.01.28-14.20.43:412][571]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.01.28-14.20.43:417][571]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.01.28-14.20.45:182][620]MaterialEditorStats: Base pass shader: 91 instructions
+[2018.01.28-14.20.45:182][620]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 118 instructions
+[2018.01.28-14.20.45:182][620]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.01.28-14.20.45:182][620]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-14.20.45:182][620]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-14.20.49:749][856]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.28-14.20.49:774][856]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.01.28-14.20.51:007][957]MaterialEditorStats: Base pass shader: 93 instructions
+[2018.01.28-14.20.51:007][957]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 120 instructions
+[2018.01.28-14.20.51:007][957]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.01.28-14.20.51:007][957]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-14.20.51:007][957]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-14.20.55:556][422]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.28-14.20.56:836][548]MaterialEditorStats: Base pass shader: 93 instructions
+[2018.01.28-14.20.56:836][548]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 120 instructions
+[2018.01.28-14.20.56:837][548]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.01.28-14.20.56:837][548]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-14.20.56:837][548]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-14.21.05:534][337]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.28-14.21.06:742][420]MaterialEditorStats: Base pass shader: 92 instructions
+[2018.01.28-14.21.06:742][420]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 119 instructions
+[2018.01.28-14.21.06:742][420]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.01.28-14.21.06:742][420]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-14.21.06:742][420]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-14.21.11:401][842]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.28-14.21.12:597][905]MaterialEditorStats: Base pass shader: 92 instructions
+[2018.01.28-14.21.12:597][905]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 119 instructions
+[2018.01.28-14.21.12:597][905]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.01.28-14.21.12:597][905]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-14.21.12:597][905]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-14.21.15:202][139]LogMaterialEditor: Saving and Compiling material Purple_Mat
+[2018.01.28-14.21.15:691][139]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.28-14.21.15:752][139]LogMaterial: Missing cached shader map for material Purple_Mat, compiling. 
+[2018.01.28-14.21.15:788][139]LogMaterial: Missing cached shader map for material Purple_Mat, compiling. 
+[2018.01.28-14.21.15:859][139]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Purple_Mat, compiling. 
+[2018.01.28-14.21.16:602][139]TextureStreamingBuild: Display: Compiling optional shaders took 0.750 seconds.
+[2018.01.28-14.21.19:728][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Materials/Purple_Mat" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Purple_Mat.uasset" SILENT=true
+[2018.01.28-14.21.19:752][139]LogSavePackage: Save=14.98ms
+[2018.01.28-14.21.19:752][139]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Purple_MatFF2E963A4148651971B82EBD224DE3A2.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Purple_Mat.uasset'
+[2018.01.28-14.21.19:754][139]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Purple_Mat.uasset
+[2018.01.28-14.21.28:371][890]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.28-14.21.29:524][974]MaterialEditorStats: Base pass shader: 92 instructions
+[2018.01.28-14.21.29:525][974]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 119 instructions
+[2018.01.28-14.21.29:525][974]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.01.28-14.21.29:525][974]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-14.21.29:525][974]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-14.21.32:305][270]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.28-14.21.33:486][354]MaterialEditorStats: Base pass shader: 92 instructions
+[2018.01.28-14.21.33:486][354]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 119 instructions
+[2018.01.28-14.21.33:486][354]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.01.28-14.21.33:486][354]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-14.21.33:486][354]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-14.21.57:773][984]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.28-14.21.57:801][984]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.01.28-14.21.59:599][171]MaterialEditorStats: Base pass shader: 90 instructions
+[2018.01.28-14.21.59:599][171]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 117 instructions
+[2018.01.28-14.21.59:599][171]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.01.28-14.21.59:599][171]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-14.21.59:599][171]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-14.22.06:142][836]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.28-14.22.06:168][836]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.01.28-14.22.07:392][949]MaterialEditorStats: Base pass shader: 92 instructions
+[2018.01.28-14.22.07:392][949]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 119 instructions
+[2018.01.28-14.22.07:392][949]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.01.28-14.22.07:392][949]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-14.22.07:392][949]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-14.22.39:920][809]LogEditorFactories: Performing atomic reimport of [D:/Misc/Global Game Jam 2018/Images/Grid_Opac.png]
+[2018.01.28-14.22.39:933][809]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/Images/Grid_Opac.png)
+[2018.01.28-14.22.39:972][809]LogTexture: Display: Building textures: Grid_Opac (AutoDXT, 1024X1024)
+[2018.01.28-14.22.40:118][809]LogEditorFactories: -- imported successfully
+[2018.01.28-14.23.47:108][848]LogEditorFactories: Performing atomic reimport of [D:/Misc/Global Game Jam 2018/Images/Grid_Opac.png]
+[2018.01.28-14.23.47:119][848]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/Images/Grid_Opac.png)
+[2018.01.28-14.23.47:157][848]LogTexture: Display: Building textures: Grid_Opac (AutoDXT, 1024X1024)
+[2018.01.28-14.23.47:301][848]LogEditorFactories: -- imported successfully
+[2018.01.28-14.24.21:975][ 61]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.28-14.24.21:999][ 61]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.01.28-14.24.23:691][147]MaterialEditorStats: Base pass shader: 92 instructions
+[2018.01.28-14.24.23:691][147]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 119 instructions
+[2018.01.28-14.24.23:691][147]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.01.28-14.24.23:691][147]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-14.24.23:691][147]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-14.24.26:358][347]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.28-14.24.26:383][347]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.01.28-14.24.27:637][419]MaterialEditorStats: Base pass shader: 92 instructions
+[2018.01.28-14.24.27:637][419]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 119 instructions
+[2018.01.28-14.24.27:637][419]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.01.28-14.24.27:637][419]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-14.24.27:637][419]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-14.24.29:411][501]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.28-14.24.29:439][501]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.01.28-14.24.30:673][561]MaterialEditorStats: Base pass shader: 92 instructions
+[2018.01.28-14.24.30:673][561]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 119 instructions
+[2018.01.28-14.24.30:673][561]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.01.28-14.24.30:673][561]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-14.24.30:673][561]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-14.24.33:186][680]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.28-14.24.33:211][680]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.01.28-14.24.34:412][784]MaterialEditorStats: Base pass shader: 92 instructions
+[2018.01.28-14.24.34:412][784]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 119 instructions
+[2018.01.28-14.24.34:412][784]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.01.28-14.24.34:412][784]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-14.24.34:412][784]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-14.24.40:903][411]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.28-14.24.40:926][411]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.01.28-14.24.42:209][525]MaterialEditorStats: Base pass shader: 92 instructions
+[2018.01.28-14.24.42:209][525]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 119 instructions
+[2018.01.28-14.24.42:209][525]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.01.28-14.24.42:209][525]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-14.24.42:209][525]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-14.24.45:161][804]LogMaterialEditor: Saving and Compiling material Purple_Mat
+[2018.01.28-14.24.45:648][804]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.28-14.24.45:710][804]LogMaterial: Missing cached shader map for material Purple_Mat, compiling. 
+[2018.01.28-14.24.45:744][804]LogMaterial: Missing cached shader map for material Purple_Mat, compiling. 
+[2018.01.28-14.24.45:805][804]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Purple_Mat, compiling. 
+[2018.01.28-14.24.46:545][804]TextureStreamingBuild: Display: Compiling optional shaders took 0.747 seconds.
+[2018.01.28-14.24.49:808][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Materials/Purple_Mat" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Purple_Mat.uasset" SILENT=true
+[2018.01.28-14.24.49:834][804]LogSavePackage: Save=22.71ms
+[2018.01.28-14.24.49:834][804]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Purple_Mat2C8C1F5547BF9BEAB2269BA9F7BF4807.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Purple_Mat.uasset'
+[2018.01.28-14.24.49:837][804]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Purple_Mat.uasset
+[2018.01.28-14.25.06:314][669]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.01.28-14.25.17:066][868]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.28-14.25.17:080][868]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/GridWorld.GridWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld' with GeneratedClass '/Game/Maps/GridWorld.GridWorld_C' with ClassGeneratedBy '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld'
+[2018.01.28-14.25.17:080][868]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.28-14.25.17:084][868]LogPlayLevel: [PlayLevel] Compiling BP_PickupCube before play...
+[2018.01.28-14.25.18:683][868]LogPlayLevel: PlayLevel: Blueprint regeneration took 1602 ms (1 blueprints)
+[2018.01.28-14.25.18:683][868]PIE: New page: PIE session: GridWorld (Jan 28, 2018, 4:25:18 AM)
+[2018.01.28-14.25.18:683][868]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GridWorld
+[2018.01.28-14.25.18:693][868]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010237s)
+[2018.01.28-14.25.18:694][868]LogAIModule: Creating AISystem for world GridWorld
+[2018.01.28-14.25.18:694][868]LogPlayLevel: PIE: World Init took: (0.000652s)
+[2018.01.28-14.25.18:694][868]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GridWorld.GridWorld to /Game/Maps/UEDPIE_0_GridWorld.GridWorld (0.011140s)
+[2018.01.28-14.25.18:727][868]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.28-14.25.18:737][868]LogInit: FAudioDevice initialized.
+[2018.01.28-14.25.18:767][868]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.01.28-14.25.18:768][868]LogLoad: Game class is 'GameModeBase'
+[2018.01.28-14.25.18:770][868]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GridWorld.GridWorld up for play (max tick rate 0) at 2018.01.28-09.25.18
+[2018.01.28-14.25.18:770][868]LogWorld: Bringing up level for play took: 0.002085
+[2018.01.28-14.25.18:773][868]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GridWorld 2.111
+[2018.01.28-14.25.18:773][868]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/GridWorld.GridWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld' with GeneratedClass '/Game/Maps/GridWorld.GridWorld_C' with ClassGeneratedBy '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld'
+[2018.01.28-14.25.35:149][828]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/GridWorld.GridWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld' with GeneratedClass '/Game/Maps/GridWorld.GridWorld_C' with ClassGeneratedBy '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld'
+[2018.01.28-14.25.35:188][828]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/GridWorld.GridWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld' with GeneratedClass '/Game/Maps/GridWorld.GridWorld_C' with ClassGeneratedBy '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld'
+[2018.01.28-14.26.07:789][417]LogMaterial: Missing cached shader map for material BlackMat, compiling. 
+[2018.01.28-14.26.07:860][417]LogMaterial: Missing cached shader map for material BlackMat, compiling. 
+[2018.01.28-14.26.07:875][417]LogMaterial: Missing cached shader map for material BlackMat, compiling. 
+[2018.01.28-14.26.09:056][538]MaterialEditorStats: Base pass shader: 145 instructions
+[2018.01.28-14.26.09:056][538]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 218 instructions
+[2018.01.28-14.26.09:056][538]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.01.28-14.26.09:056][538]MaterialEditorStats: Texture samplers: 2/16
+[2018.01.28-14.26.12:376][746]LogMaterial: Missing cached shader map for material BlackMat, compiling. 
+[2018.01.28-14.26.12:391][746]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.01.28-14.26.13:063][799]MaterialEditorStats: Base pass shader: 145 instructions
+[2018.01.28-14.26.13:063][799]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 218 instructions
+[2018.01.28-14.26.13:063][799]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.01.28-14.26.13:063][799]MaterialEditorStats: Texture samplers: 2/16
+[2018.01.28-14.26.16:551][ 45]LogMaterial: Missing cached shader map for material BlackMat, compiling. 
+[2018.01.28-14.26.16:568][ 45]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.01.28-14.26.17:237][ 94]MaterialEditorStats: Base pass shader: 145 instructions
+[2018.01.28-14.26.17:237][ 94]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 218 instructions
+[2018.01.28-14.26.17:237][ 94]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.01.28-14.26.17:237][ 94]MaterialEditorStats: Texture samplers: 2/16
+[2018.01.28-14.26.23:095][734]LogMaterialEditor: Saving and Compiling material BlackMat
+[2018.01.28-14.26.23:575][734]LogMaterial: Missing cached shader map for material BlackMat, compiling. 
+[2018.01.28-14.26.23:636][734]LogMaterial: Missing cached shader map for material BlackMat, compiling. 
+[2018.01.28-14.26.23:665][734]LogMaterial: Missing cached shader map for material BlackMat, compiling. 
+[2018.01.28-14.26.23:735][734]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BlackMat, compiling. 
+[2018.01.28-14.26.24:089][734]TextureStreamingBuild: Display: Compiling optional shaders took 0.362 seconds.
+[2018.01.28-14.26.26:410][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Materials/BlackMat" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/BlackMat.uasset" SILENT=true
+[2018.01.28-14.26.26:434][734]LogSavePackage: Save=20.40ms
+[2018.01.28-14.26.26:434][734]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/BlackMatE8442EE848D7F24B2DB91EBE5B82F32D.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/BlackMat.uasset'
+[2018.01.28-14.26.26:437][734]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/BlackMat.uasset
+[2018.01.28-14.26.26:473][734]MaterialEditorStats: Base pass shader: 145 instructions
+[2018.01.28-14.26.26:473][734]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 218 instructions
+[2018.01.28-14.26.26:473][734]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.01.28-14.26.26:473][734]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-14.27.38:318][753]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube15)
+[2018.01.28-14.27.39:521][891]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (EditorCube16)
+[2018.01.28-14.27.40:238][972]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (EditorCube17)
+[2018.01.28-14.27.44:701][501]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube21)
+[2018.01.28-14.27.51:130][265]LogEditorViewport: Clicking on Actor (LMB): NavModifierVolume (NavModifierVolume6)
+[2018.01.28-14.27.54:927][715]LogEditorViewport: Clicking on Actor (LMB): NavModifierVolume (NavModifierVolume)
+[2018.01.28-14.28.06:283][ 20]LogEditorViewport: Clicking on Actor (LMB): NavModifierVolume (NavModifierVolume8)
+[2018.01.28-14.28.14:702][ 25]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush8)
+[2018.01.28-14.28.17:961][411]LogEditorViewport: Clicking on Actor (LMB): NavModifierVolume (NavModifierVolume8)
+[2018.01.28-14.28.46:166][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GridWorld" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/Maps/GridWorld_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.01.28-14.28.46:420][925]LogSavePackage: Save=244.68ms
+[2018.01.28-14.28.46:420][925]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/GridWorld_Auto325C30AA04D664E9A993329A5AF295F29.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/Maps/GridWorld_Auto3.umap'
+[2018.01.28-14.28.46:421][925]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/Maps/GridWorld_Auto3.umap
+[2018.01.28-14.28.46:424][925]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/GridWorld' took 0.305
+[2018.01.28-14.28.46:424][925]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.305
+[2018.01.28-14.28.46:436][925]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/X_Materials/Grid_Purple2] ([1] browsable assets)...
+[2018.01.28-14.28.46:456][925]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/X_Materials/Grid_Purple2.Grid_Purple2]
+[2018.01.28-14.28.46:456][925]OBJ SavePackage: Finished generating thumbnails for package [/Game/X_Materials/Grid_Purple2]
+[2018.01.28-14.28.46:456][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Materials/Grid_Purple2" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Materials/Grid_Purple2_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.01.28-14.28.46:477][925]LogSavePackage: Save=12.11ms
+[2018.01.28-14.28.46:477][925]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Grid_Purple2_Auto3E8C908C54B334317770858AD3A7AD9B4.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Materials/Grid_Purple2_Auto3.uasset'
+[2018.01.28-14.28.46:478][925]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Materials/Grid_Purple2_Auto3.uasset
+[2018.01.28-14.28.46:479][925]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/X_Meshes/BP_PickupCube] ([1] browsable assets)...
+[2018.01.28-14.28.46:494][925]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/X_Meshes/BP_PickupCube.BP_PickupCube]
+[2018.01.28-14.28.46:494][925]OBJ SavePackage: Finished generating thumbnails for package [/Game/X_Meshes/BP_PickupCube]
+[2018.01.28-14.28.46:494][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Meshes/BP_PickupCube" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Meshes/BP_PickupCube_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.01.28-14.28.46:542][925]LogSavePackage: Save=39.37ms
+[2018.01.28-14.28.46:543][925]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/BP_PickupCube_Auto3685B5D5445481AC5693E11849FD259D9.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Meshes/BP_PickupCube_Auto3.uasset'
+[2018.01.28-14.28.46:543][925]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Meshes/BP_PickupCube_Auto3.uasset
+[2018.01.28-14.28.46:544][925]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/X_Materials/Grid_Opac] ([1] browsable assets)...
+[2018.01.28-14.28.46:563][925]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/X_Materials/Grid_Opac.Grid_Opac]
+[2018.01.28-14.28.46:563][925]OBJ SavePackage: Finished generating thumbnails for package [/Game/X_Materials/Grid_Opac]
+[2018.01.28-14.28.46:563][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Materials/Grid_Opac" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Materials/Grid_Opac_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.01.28-14.28.46:576][925]LogSavePackage: Save=11.19ms
+[2018.01.28-14.28.46:576][925]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Grid_Opac_Auto304335ACD481557A770A6C7B989F6A15E.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Materials/Grid_Opac_Auto3.uasset'
+[2018.01.28-14.28.46:577][925]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Materials/Grid_Opac_Auto3.uasset
+[2018.01.28-14.28.46:577][925]LogFileHelpers: Auto-saving content packages took 0.141
