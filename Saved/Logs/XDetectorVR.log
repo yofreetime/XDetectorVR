@@ -1,4 +1,4 @@
-﻿Log file open, 01/27/18 21:43:55
+﻿Log file open, 01/28/18 08:20:43
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: XDetectorVR
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(923319364) SRandInit(923319364).
+LogInit: Display: RandInit(-395336227) SRandInit(-395336227).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.376654
+LogStats: Stats thread started at 0.343104
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -166,6 +166,7 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogHMD: Failed initializing OVRPlugin 1.19.0
 LogInit: Build: ++UE4+Release-4.18-CL-3832480
 LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
 LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
@@ -191,509 +192,451 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  
+LogInit: Command line: -EpicPortal 
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.01.28-02.43.58:128][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.28-02.43.58:128][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.01.28-02.43.58:145][  0]LogInit: Computer: BRAD-MACHINE
-[2018.01.28-02.43.58:145][  0]LogInit: User: Brad
-[2018.01.28-02.43.58:145][  0]LogInit: CPU Page size=4096, Cores=8
-[2018.01.28-02.43.58:146][  0]LogInit: High frequency timer resolution =3.124097 MHz
-[2018.01.28-02.43.58:146][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2018.01.28-02.43.58:146][  0]LogMemory: Platform Memory Stats for Windows
-[2018.01.28-02.43.58:146][  0]LogMemory: Process Physical Memory: 282.32 MB used, 282.32 MB peak
-[2018.01.28-02.43.58:146][  0]LogMemory: Process Virtual Memory: 277.17 MB used, 277.17 MB peak
-[2018.01.28-02.43.58:146][  0]LogMemory: Physical Memory: 10826.04 MB used,  21862.39 MB free, 32688.42 MB total
-[2018.01.28-02.43.58:146][  0]LogMemory: Virtual Memory: 750.00 MB used,  21862.39 MB free, 134217728.00 MB total
-[2018.01.28-02.43.58:720][  0]LogInit: Using OS detected language (en-US).
-[2018.01.28-02.43.58:720][  0]LogInit: Using OS detected locale (en-US).
-[2018.01.28-02.43.58:723][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.01.28-02.43.59:152][  0]LogInit: Setting process to per monitor DPI aware
-[2018.01.28-02.43.59:579][  0]LogD3D11RHI: D3D11 adapters:
-[2018.01.28-02.43.59:863][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2018.01.28-02.43.59:863][  0]LogD3D11RHI:       8086/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.01.28-02.43.59:872][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.01.28-02.43.59:872][  0]LogD3D11RHI:       0/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.01.28-02.43.59:872][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.01.28-02.43.59:882][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.01.28-02.43.59:882][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2018.01.28-02.43.59:882][  0]LogWindows: EnumDisplayDevices:
-[2018.01.28-02.43.59:882][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2018.01.28-02.43.59:882][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.01.28-02.43.59:882][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.01.28-02.43.59:883][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.01.28-02.43.59:883][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.01.28-02.43.59:883][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2018.01.28-02.43.59:883][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.01.28-02.43.59:883][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.01.28-02.43.59:883][  0]LogRHI: Texture pool is 5660 MB (70% of 8086 MB)
-[2018.01.28-02.43.59:908][  0]LogD3D11RHI: Async texture creation enabled
-[2018.01.28-02.43.59:984][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.01.28-02.43.59:988][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Intermediate/Shaders/WorkingDirectory/18036/).
-[2018.01.28-02.43.59:989][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Brad/AppData/Local/Temp/UnrealShaderWorkingDir/405FCE7B47F0D41C32BF2185B7DC36FC/'.
-[2018.01.28-02.43.59:989][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.01.28-02.44.01:481][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.01.28-02.44.01:588][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.01.28-02.44.01:669][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.01.28-02.44.01:763][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.01.28-02.44.01:853][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.01.28-02.44.01:933][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.01.28-02.44.02:046][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.01.28-02.44.02:161][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.01.28-02.44.02:274][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.01.28-02.44.02:365][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.01.28-02.44.02:463][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.01.28-02.44.02:556][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.01.28-02.44.02:651][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.01.28-02.44.02:747][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.01.28-02.44.02:944][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.01.28-02.44.02:944][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.01.28-02.44.03:065][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.01.28-02.44.03:156][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.01.28-02.44.03:356][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.01.28-02.44.03:422][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.01.28-02.44.03:521][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.01.28-02.44.03:614][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.01.28-02.44.03:725][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.01.28-02.44.03:827][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.01.28-02.44.03:827][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.01.28-02.44.05:231][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.01.28-02.44.05:350][  0]LogDerivedDataCache: Loaded boot cache 0.12s 92MB C:/Users/Brad/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.01.28-02.44.05:350][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Brad/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.01.28-02.44.05:351][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.01.28-02.44.05:351][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.01.28-02.44.05:351][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.01.28-02.44.05:351][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.01.28-02.44.05:373][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.01.28-02.44.05:386][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Brad/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.01.28-02.44.05:402][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.01.28-02.44.05:402][  0]LogSlate: Using Freetype 2.6.0
-[2018.01.28-02.44.05:403][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.28-02.44.05:403][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.28-02.44.05:803][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.28-02.44.06:679][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.01.28-02.44.06:778][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.01.28-02.44.06:778][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.01.28-02.44.06:778][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.01.28-02.44.06:778][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.01.28-02.44.06:778][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.01.28-02.44.06:836][  0]LogNetVersion: XDetectorVR , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1636529592)
-[2018.01.28-02.44.07:069][  0]LogAssetRegistry: FAssetRegistry took 0.0269 seconds to start up
-[2018.01.28-02.44.07:758][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.069428 seconds
-[2018.01.28-02.44.07:768][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.01.28-02.44.07:768][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2018.01.28-02.44.07:768][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.01.28-02.44.07:855][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.01.28-02.44.12:639][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.01.28-02.44.12:725][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.01.28-02.44.14:166][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.01.28-02.44.14:953][  0]SourceControl: Source control is disabled
-[2018.01.28-02.44.14:953][  0]SourceControl: Source control is disabled
-[2018.01.28-02.44.15:071][  0]SourceControl: Source control is disabled
-[2018.01.28-02.44.15:202][  0]SourceControl: Source control is disabled
-[2018.01.28-02.44.17:033][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.01.28-02.44.17:572][  0]LogOcInput: OculusInput pre-init called
-[2018.01.28-02.44.18:187][  0]LogEngine: Initializing Engine...
-[2018.01.28-02.44.18:189][  0]LogHMD: Oculus plugin initialized. Version: 4.18.3-3832480+++UE4+Release-4.18, OVRPlugin: 1.19.0
-[2018.01.28-02.44.18:470][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.01.28-02.44.18:470][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.01.28-02.44.18:682][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.01.28-02.44.18:751][  0]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.01.28-02.44.18:800][  0]LogInit: FAudioDevice initialized.
-[2018.01.28-02.44.18:926][  0]LogDerivedDataCache: Saved boot cache 0.13s 92MB C:/Users/Brad/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.01.28-02.44.18:953][  0]LogInit: Texture streaming: Enabled
-[2018.01.28-02.44.19:232][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.01.28-02.44.19:453][  0]LogInit: Transaction tracking system initialized
-[2018.01.28-02.44.20:082][  0]BlueprintLog: New page: Editor Load
-[2018.01.28-02.44.22:142][  0]LocalizationService: Localization service is disabled
-[2018.01.28-02.44.23:718][  0]LogConsoleResponse: Display: 
-[2018.01.28-02.44.24:006][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.01.28-02.44.24:006][  0]LogCook: Display: Mobile HDR setting 1
-[2018.01.28-02.44.24:006][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.01.28-02.44.24:376][  0]LogFileCache: Scanning file cache for directory 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/' took 0.01s
-[2018.01.28-02.44.26:360][  0]SourceControl: Source control is disabled
-[2018.01.28-02.44.26:360][  0]Cmd: MAP LOAD FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.01.28-02.44.26:361][  0]LightingResults: New page: Lighting Build
-[2018.01.28-02.44.26:415][  0]MapCheck: New page: Map Check
-[2018.01.28-02.44.26:415][  0]LightingResults: New page: Lighting Build
-[2018.01.28-02.44.26:532][  0]LogAIModule: Creating AISystem for world StartupMap
-[2018.01.28-02.44.26:543][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.01.28-02.44.26:570][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.01.28-02.44.26:638][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 67.452ms to complete.
-[2018.01.28-02.44.26:638][  0]LogFileHelpers: Loading map 'StartupMap' took 0.278
-[2018.01.28-02.44.26:724][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.01.28-02.44.26:858][  0]LogCollectionManager: Loaded 0 collections in 0.003637 seconds
-[2018.01.28-02.44.26:973][  0]LogFileCache: Scanning file cache for directory 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Collections/' took 0.01s
-[2018.01.28-02.44.26:973][  0]LogFileCache: Scanning file cache for directory 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Developers/Brad/Collections/' took 0.01s
-[2018.01.28-02.44.26:973][  0]LogFileCache: Scanning file cache for directory 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Collections/' took 0.01s
-[2018.01.28-02.44.26:973][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.01.28-02.44.26:985][  0]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2363 classes and 519 folders.
-[2018.01.28-02.44.27:088][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.01.28-02.44.27:140][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.01.28-02.44.27:224][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.01.28-02.44.27:309][  0]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.01.28-02.44.27:311][  0]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.01.28-02.44.27:316][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.01.28-02.44.27:437][  0]LogRenderer: Reallocating scene render targets to support 1176x584 Format 26 NumSamples 1 (Frame:1).
-[2018.01.28-02.44.27:710][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.01.28-02.44.27:710][  0]LogLoad: (Engine Initialization) Total time: 34.11 seconds
-[2018.01.28-02.44.27:710][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.01.28-02.44.27:711][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.01.28-02.44.27:742][  0]LogOcInput: OculusInput is initialized
-[2018.01.28-02.44.27:775][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.01.28-02.44.27:838][  0]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.28-02.44.27:842][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/' took 0.09s
-[2018.01.28-02.44.27:853][  1]LogAssetRegistry: Asset discovery search completed in 20.8067 seconds
-[2018.01.28-02.44.27:855][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.01.28-02.44.27:855][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
-[2018.01.28-02.44.30:755][324]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.28-02.44.38:954][977]AssetReimport: New page: Outstanding source content changes 4:44:38 PM
-[2018.01.28-02.44.38:955][977]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/stool.fbx)
-[2018.01.28-02.44.38:960][977]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2018.01.28-02.44.38:960][977]LogFbx: ItemName: Geometry, ItemCount : 1
-[2018.01.28-02.44.38:960][977]LogFbx: ItemName: Model, ItemCount : 1
-[2018.01.28-02.44.38:965][977]LogFbx: Loading FBX Scene from D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/stool.fbx
-[2018.01.28-02.44.38:970][977]LogFbx: FBX Scene Loaded Succesfully
-[2018.01.28-02.44.41:322][977]LogFbx: Loading FBX Scene from D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/stool.fbx
-[2018.01.28-02.44.41:328][977]LogFbx: FBX Scene Loaded Succesfully
-[2018.01.28-02.44.41:347][977]LogStaticMesh: Building static mesh stool...
-[2018.01.28-02.44.41:362][977]LogStaticMesh: Built static mesh [0.01s] /Game/X_Materials/stool.stool
-[2018.01.28-02.44.41:432][978]LogFactory: FactoryCreateFile: DataTable with ReimportDataTableFactory (0 1 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Stool/Stool.json)
-[2018.01.28-02.44.51:291][979]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Stool/stool_1001_BaseColor.png)
-[2018.01.28-02.44.52:369][980]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Stool/stool_1001_Emissive.png)
-[2018.01.28-02.44.52:896][981]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Stool/stool_1001_Normal.png)
-[2018.01.28-02.44.53:523][982]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Stool/stool_1001_OcclusionRoughnessMetallic.png)
-[2018.01.28-02.44.54:169][983]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.28-02.44.54:245][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Materials/stool" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/stool.uasset" SILENT=true
-[2018.01.28-02.44.54:280][983]LogSavePackage: Save=32.10ms
-[2018.01.28-02.44.54:281][983]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/stool33FE91934D7F1A0B14604F971D5EF9D6.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/stool.uasset'
-[2018.01.28-02.44.54:283][983]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/stool.uasset
-[2018.01.28-02.44.54:359][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Materials/Stool/stool_1001_BaseColor" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Stool/stool_1001_BaseColor.uasset" SILENT=true
-[2018.01.28-02.44.54:853][983]LogSavePackage: Save=490.55ms
-[2018.01.28-02.44.54:853][983]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/stool_1001_BaseColor3A61B6EC4BD000D6F05E7585125E1BAA.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Stool/stool_1001_BaseColor.uasset'
-[2018.01.28-02.44.54:858][983]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Stool/stool_1001_BaseColor.uasset
-[2018.01.28-02.44.54:949][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Materials/Stool/stool_1001_Emissive" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Stool/stool_1001_Emissive.uasset" SILENT=true
-[2018.01.28-02.44.55:149][983]LogSavePackage: Save=197.31ms
-[2018.01.28-02.44.55:149][983]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/stool_1001_Emissive71E9C4094771B5BFF6E0E0A56B04F5CB.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Stool/stool_1001_Emissive.uasset'
-[2018.01.28-02.44.55:152][983]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Stool/stool_1001_Emissive.uasset
-[2018.01.28-02.44.55:250][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Materials/Stool/stool_1001_Normal" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Stool/stool_1001_Normal.uasset" SILENT=true
-[2018.01.28-02.44.55:906][983]LogSavePackage: Save=652.57ms
-[2018.01.28-02.44.55:906][983]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/stool_1001_Normal4132D1484C02E5FC735031877B83A63E.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Stool/stool_1001_Normal.uasset'
-[2018.01.28-02.44.55:911][983]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Stool/stool_1001_Normal.uasset
-[2018.01.28-02.44.56:193][983]LogSavePackage: Save=196.66ms
-[2018.01.28-02.44.56:194][983]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/stool_1001_OcclusionRoughnessMetE4D85E4641853810A990BEB046D60ECD.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Stool/stool_1001_OcclusionRoughnessMetallic.uasset'
-[2018.01.28-02.44.56:199][983]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Stool/stool_1001_OcclusionRoughnessMetallic.uasset
-[2018.01.28-02.44.59:247][101]AssetReimport: Importing new asset /Game/X_Materials/stool.
-[2018.01.28-02.44.59:247][101]AssetReimport: Importing new asset /Game/X_Materials/Stool/Stool.
-[2018.01.28-02.44.59:247][101]AssetReimport: Failed to import file D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Stool/Stool.json.
-[2018.01.28-02.44.59:247][101]AssetReimport: Importing new asset /Game/X_Materials/Stool/stool_1001_BaseColor.
-[2018.01.28-02.44.59:247][101]AssetReimport: Importing new asset /Game/X_Materials/Stool/stool_1001_Emissive.
-[2018.01.28-02.44.59:247][101]AssetReimport: Importing new asset /Game/X_Materials/Stool/stool_1001_Normal.
-[2018.01.28-02.44.59:247][101]AssetReimport: Importing new asset /Game/X_Materials/Stool/stool_1001_OcclusionRoughnessMetallic.
-[2018.01.28-02.45.16:770][195]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.01.28-02.45.16:989][212]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.XDetectorVR
-[2018.01.28-02.45.16:989][212]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.01.28-02.45.16:989][212]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
-[2018.01.28-02.45.16:989][212]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.01.28-02.45.16:989][212]LogTemp: BranchPath = BRAD-MACHINE/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = BRAD-MACHINE/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
-[2018.01.28-02.45.17:005][214]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Brad\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.01.28-02.45.42:264][292]LogUProjectInfo: Found projects:
-[2018.01.28-02.45.46:400][460]Cmd: CLOSE_SLATE_MAINFRAME
-[2018.01.28-02.45.46:700][461]Cmd: QUIT_EDITOR
-[2018.01.28-02.45.46:783][461]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.01.28-02.45.46:798][461]LogExit: Preparing to exit.
-[2018.01.28-02.45.47:815][461]LogExit: Editor shut down
-[2018.01.28-02.45.47:819][461]LogExit: Transaction tracking system shut down
-[2018.01.28-02.45.48:033][461]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.01.28-02.45.48:033][461]LogDirectoryWatcher: A directory notification for 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/' was aborted.
-[2018.01.28-02.45.48:033][461]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.01.28-02.45.48:033][461]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.01.28-02.45.48:033][461]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.01.28-02.45.48:033][461]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.01.28-02.45.48:034][461]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.01.28-02.45.48:088][461]LogExit: Object subsystem successfully closed.
-[2018.01.28-02.45.48:130][461]LogD3D11RHI: Shutdown
-[2018.01.28-02.45.48:130][461]LogD3D11RHI: CleanupD3DDevice
-[2018.01.28-02.45.48:132][461]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.01.28-02.45.48:151][461]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (550)
-[2018.01.28-02.45.48:151][461]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
-[2018.01.28-02.45.48:151][461]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
-[2018.01.28-02.45.48:151][461]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
-[2018.01.28-02.45.48:151][461]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
-[2018.01.28-02.45.48:152][461]LogDirectoryWatcher: A directory notification for 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Collections/' was aborted.
-[2018.01.28-02.45.48:152][461]LogDirectoryWatcher: A directory notification for 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Developers/Brad/Collections/' was aborted.
-[2018.01.28-02.45.48:152][461]LogDirectoryWatcher: A directory notification for 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Collections/' was aborted.
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2018.01.28-02.45.48:152][461]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2018.01.28-02.45.48:153][461]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2018.01.28-02.45.48:153][461]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2018.01.28-02.45.48:153][461]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2018.01.28-02.45.48:153][461]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2018.01.28-02.45.48:153][461]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2018.01.28-02.45.48:153][461]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2018.01.28-02.45.48:153][461]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2018.01.28-02.45.48:153][461]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2018.01.28-02.45.49:033][461]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2018.01.28-02.45.49:033][461]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2018.01.28-02.45.49:033][461]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2018.01.28-02.45.49:033][461]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2018.01.28-02.45.49:033][461]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2018.01.28-02.45.49:033][461]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2018.01.28-02.45.49:033][461]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2018.01.28-02.45.49:033][461]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2018.01.28-02.45.49:033][461]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2018.01.28-02.45.49:033][461]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2018.01.28-02.45.49:034][461]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2018.01.28-02.45.49:034][461]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2018.01.28-02.45.49:034][461]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2018.01.28-02.45.49:034][461]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2018.01.28-02.45.49:034][461]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2018.01.28-02.45.49:034][461]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2018.01.28-02.45.49:034][461]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2018.01.28-02.45.49:034][461]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2018.01.28-02.45.49:034][461]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2018.01.28-02.45.49:034][461]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2018.01.28-02.45.49:034][461]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2018.01.28-02.45.49:034][461]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2018.01.28-02.45.49:034][461]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2018.01.28-02.45.49:034][461]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2018.01.28-02.45.49:087][461]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2018.01.28-02.45.49:087][461]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2018.01.28-02.45.49:087][461]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2018.01.28-02.45.49:087][461]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2018.01.28-02.45.49:087][461]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2018.01.28-02.45.49:088][461]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2018.01.28-02.45.49:088][461]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2018.01.28-02.45.49:088][461]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2018.01.28-02.45.49:088][461]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2018.01.28-02.45.49:088][461]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2018.01.28-02.45.49:088][461]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2018.01.28-02.45.49:088][461]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2018.01.28-02.45.49:088][461]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2018.01.28-02.45.49:088][461]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2018.01.28-02.45.49:089][461]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2018.01.28-02.45.49:089][461]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2018.01.28-02.45.49:089][461]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2018.01.28-02.45.49:089][461]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2018.01.28-02.45.49:089][461]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2018.01.28-02.45.49:089][461]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2018.01.28-02.45.49:089][461]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2018.01.28-02.45.49:089][461]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2018.01.28-02.45.49:089][461]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2018.01.28-02.45.49:089][461]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2018.01.28-02.45.49:089][461]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2018.01.28-02.45.49:089][461]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2018.01.28-02.45.49:089][461]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2018.01.28-02.45.49:089][461]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2018.01.28-02.45.49:089][461]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
-[2018.01.28-02.45.49:089][461]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
-[2018.01.28-02.45.49:252][461]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
-[2018.01.28-02.45.49:252][461]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
-[2018.01.28-02.45.49:252][461]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
-[2018.01.28-02.45.49:252][461]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
-[2018.01.28-02.45.49:252][461]LogModuleManager: Shutting down and abandoning module OculusInput (338)
-[2018.01.28-02.45.49:252][461]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
-[2018.01.28-02.45.49:252][461]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
-[2018.01.28-02.45.49:252][461]LogModuleManager: Shutting down and abandoning module CableComponent (332)
-[2018.01.28-02.45.49:253][461]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
-[2018.01.28-02.45.49:253][461]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
-[2018.01.28-02.45.49:253][461]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
-[2018.01.28-02.45.49:253][461]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
-[2018.01.28-02.45.49:253][461]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
-[2018.01.28-02.45.49:253][461]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
-[2018.01.28-02.45.49:253][461]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
-[2018.01.28-02.45.49:253][461]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
-[2018.01.28-02.45.49:253][461]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
-[2018.01.28-02.45.49:253][461]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
-[2018.01.28-02.45.49:253][461]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
-[2018.01.28-02.45.49:253][461]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
-[2018.01.28-02.45.49:253][461]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
-[2018.01.28-02.45.49:253][461]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
-[2018.01.28-02.45.49:253][461]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
-[2018.01.28-02.45.49:253][461]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
-[2018.01.28-02.45.49:253][461]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
-[2018.01.28-02.45.49:253][461]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
-[2018.01.28-02.45.49:254][461]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
-[2018.01.28-02.45.49:254][461]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
-[2018.01.28-02.45.49:254][461]LogModuleManager: Shutting down and abandoning module SourceControl (289)
-[2018.01.28-02.45.49:254][461]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
-[2018.01.28-02.45.49:254][461]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
-[2018.01.28-02.45.49:254][461]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
-[2018.01.28-02.45.49:254][461]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
-[2018.01.28-02.45.49:254][461]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
-[2018.01.28-02.45.49:254][461]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
-[2018.01.28-02.45.49:256][461]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
-[2018.01.28-02.45.49:256][461]LogModuleManager: Shutting down and abandoning module MainFrame (274)
-[2018.01.28-02.45.49:256][461]LogModuleManager: Shutting down and abandoning module HotReload (273)
-[2018.01.28-02.45.49:257][461]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2018.01.28-02.45.49:257][461]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2018.01.28-02.45.49:257][461]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2018.01.28-02.45.49:257][461]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2018.01.28-02.45.49:257][461]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2018.01.28-02.45.49:257][461]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2018.01.28-02.45.49:257][461]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2018.01.28-02.45.49:257][461]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2018.01.28-02.45.49:358][461]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2018.01.28-02.45.49:458][461]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2018.01.28-02.45.49:458][461]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2018.01.28-02.45.49:458][461]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2018.01.28-02.45.49:458][461]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2018.01.28-02.45.49:458][461]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2018.01.28-02.45.49:458][461]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2018.01.28-02.45.49:460][461]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2018.01.28-02.45.49:460][461]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2018.01.28-02.45.49:460][461]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2018.01.28-02.45.49:460][461]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2018.01.28-02.45.49:462][461]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2018.01.28-02.45.49:462][461]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2018.01.28-02.45.49:462][461]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2018.01.28-02.45.49:462][461]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2018.01.28-02.45.49:462][461]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2018.01.28-02.45.49:462][461]LogModuleManager: Shutting down and abandoning module Media (221)
-[2018.01.28-02.45.49:468][461]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2018.01.28-02.45.49:468][461]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2018.01.28-02.45.49:468][461]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2018.01.28-02.45.49:468][461]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2018.01.28-02.45.49:468][461]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2018.01.28-02.45.49:468][461]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2018.01.28-02.45.49:468][461]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2018.01.28-02.45.49:468][461]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2018.01.28-02.45.49:468][461]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2018.01.28-02.45.49:468][461]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2018.01.28-02.45.49:468][461]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2018.01.28-02.45.49:468][461]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2018.01.28-02.45.49:468][461]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2018.01.28-02.45.49:468][461]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2018.01.28-02.45.49:468][461]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2018.01.28-02.45.49:468][461]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2018.01.28-02.45.49:470][461]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2018.01.28-02.45.49:471][461]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2018.01.28-02.45.49:471][461]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2018.01.28-02.45.49:471][461]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2018.01.28-02.45.49:471][461]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2018.01.28-02.45.49:471][461]LogModuleManager: Shutting down and abandoning module Core (172)
-[2018.01.28-02.45.49:471][461]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2018.01.28-02.45.49:471][461]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2018.01.28-02.45.49:471][461]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.01.28-02.45.49:471][461]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2018.01.28-02.45.49:471][461]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2018.01.28-02.45.49:471][461]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2018.01.28-02.45.49:471][461]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2018.01.28-02.45.49:471][461]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2018.01.28-02.45.49:471][461]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2018.01.28-02.45.49:471][461]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2018.01.28-02.45.49:471][461]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2018.01.28-02.45.49:964][461]LogDerivedDataCache: Shutdown
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2018.01.28-02.45.49:964][461]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2018.01.28-02.45.49:965][461]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2018.01.28-02.45.49:965][461]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2018.01.28-02.45.49:965][461]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2018.01.28-02.45.49:965][461]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2018.01.28-02.45.49:965][461]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2018.01.28-02.45.49:965][461]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2018.01.28-02.45.49:965][461]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2018.01.28-02.45.49:965][461]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2018.01.28-02.45.49:965][461]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2018.01.28-02.45.49:965][461]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2018.01.28-02.45.49:965][461]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2018.01.28-02.45.49:965][461]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2018.01.28-02.45.49:965][461]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2018.01.28-02.45.49:965][461]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2018.01.28-02.45.49:965][461]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2018.01.28-02.45.49:965][461]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2018.01.28-02.45.49:965][461]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2018.01.28-02.45.49:965][461]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.01.28-02.45.49:965][461]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.01.28-02.45.49:965][461]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.01.28-02.45.49:965][461]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.01.28-02.45.49:965][461]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.01.28-02.45.49:965][461]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.01.28-02.45.49:965][461]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4158C1EC-4899-77EC-A79B-28899812E498%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=1e2cf883469ff2609d151785eca03e03%7Ca6a71a88586641649408bed6cdd94c29%7Cb687eb7e-77c8-401b-98c3-b02a740dbbfc&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.01.28-02.45.49:975][461]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.01.28-02.45.49:977][461]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.01.28-02.45.49:977][461]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.01.28-02.45.49:977][461]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.01.28-02.45.49:977][461]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.01.28-02.45.49:977][461]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.01.28-02.45.49:977][461]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.01.28-02.45.49:977][461]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.01.28-02.45.49:978][461]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.01.28-02.45.49:978][461]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.01.28-02.45.49:978][461]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.01.28-02.45.49:978][461]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.01.28-02.45.49:978][461]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.01.28-02.45.49:978][461]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.01.28-02.45.49:978][461]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.01.28-02.45.49:978][461]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.01.28-02.45.49:978][461]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.01.28-02.45.49:978][461]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.01.28-02.45.49:978][461]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.01.28-02.45.49:983][461]LogExit: Exiting.
-[2018.01.28-02.45.49:998][461]Log file closed, 01/27/18 21:45:49
+[2018.01.28-13.20.45:776][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.28-13.20.45:776][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.28-13.20.45:790][  0]LogInit: Computer: BRAD-MACHINE
+[2018.01.28-13.20.45:790][  0]LogInit: User: Brad
+[2018.01.28-13.20.45:790][  0]LogInit: CPU Page size=4096, Cores=8
+[2018.01.28-13.20.45:790][  0]LogInit: High frequency timer resolution =3.124091 MHz
+[2018.01.28-13.20.45:791][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.01.28-13.20.45:791][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.28-13.20.45:791][  0]LogMemory: Process Physical Memory: 278.11 MB used, 278.11 MB peak
+[2018.01.28-13.20.45:791][  0]LogMemory: Process Virtual Memory: 275.01 MB used, 275.01 MB peak
+[2018.01.28-13.20.45:791][  0]LogMemory: Physical Memory: 6752.89 MB used,  25935.54 MB free, 32688.42 MB total
+[2018.01.28-13.20.45:791][  0]LogMemory: Virtual Memory: 741.25 MB used,  25935.54 MB free, 134217728.00 MB total
+[2018.01.28-13.20.45:951][  0]LogInit: Using OS detected language (en-US).
+[2018.01.28-13.20.45:951][  0]LogInit: Using OS detected locale (en-US).
+[2018.01.28-13.20.45:954][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.01.28-13.20.46:355][  0]LogInit: Setting process to per monitor DPI aware
+[2018.01.28-13.20.46:616][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.28-13.20.46:661][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.01.28-13.20.46:661][  0]LogD3D11RHI:       8086/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.28-13.20.46:664][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.28-13.20.46:664][  0]LogD3D11RHI:       0/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.28-13.20.46:664][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.28-13.20.46:672][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.28-13.20.46:672][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.28-13.20.46:672][  0]LogWindows: EnumDisplayDevices:
+[2018.01.28-13.20.46:672][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.01.28-13.20.46:672][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.01.28-13.20.46:672][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.01.28-13.20.46:672][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.01.28-13.20.46:673][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.28-13.20.46:673][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.01.28-13.20.46:673][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.28-13.20.46:673][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.28-13.20.46:673][  0]LogRHI: Texture pool is 5660 MB (70% of 8086 MB)
+[2018.01.28-13.20.46:695][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.28-13.20.46:741][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.28-13.20.46:742][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Intermediate/Shaders/WorkingDirectory/12720/).
+[2018.01.28-13.20.46:742][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Brad/AppData/Local/Temp/UnrealShaderWorkingDir/66F2200942AD378EFFFA1CA64CF3B325/'.
+[2018.01.28-13.20.46:743][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.01.28-13.20.47:761][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.28-13.20.47:826][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.01.28-13.20.47:880][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.28-13.20.47:937][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.01.28-13.20.47:995][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.01.28-13.20.48:053][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.28-13.20.48:116][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.28-13.20.48:186][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.28-13.20.48:236][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.01.28-13.20.48:288][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.28-13.20.48:341][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.28-13.20.48:401][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.28-13.20.48:462][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.28-13.20.48:522][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.28-13.20.48:635][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.28-13.20.48:635][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.28-13.20.48:690][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.01.28-13.20.48:733][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.01.28-13.20.48:827][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.01.28-13.20.48:860][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.01.28-13.20.48:916][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.28-13.20.48:969][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.28-13.20.49:028][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.28-13.20.49:081][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.01.28-13.20.49:081][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.01.28-13.20.49:628][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.01.28-13.20.49:724][  0]LogDerivedDataCache: Loaded boot cache 0.10s 92MB C:/Users/Brad/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.01.28-13.20.49:725][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Brad/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.01.28-13.20.49:725][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.28-13.20.49:725][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.28-13.20.49:725][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.28-13.20.49:725][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.28-13.20.49:748][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.28-13.20.49:762][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Brad/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.28-13.20.49:772][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.28-13.20.49:772][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.28-13.20.49:773][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.28-13.20.49:773][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.28-13.20.50:120][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.28-13.20.50:470][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.28-13.20.50:530][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.28-13.20.50:530][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.28-13.20.50:530][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.01.28-13.20.50:530][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.01.28-13.20.50:530][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.01.28-13.20.50:556][  0]LogNetVersion: XDetectorVR , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1636529592)
+[2018.01.28-13.20.50:729][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2018.01.28-13.20.51:283][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.054680 seconds
+[2018.01.28-13.20.51:287][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.01.28-13.20.51:287][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.01.28-13.20.51:287][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.28-13.20.51:341][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.28-13.20.54:256][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.28-13.20.54:306][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.28-13.20.55:091][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.28-13.20.55:577][  0]SourceControl: Source control is disabled
+[2018.01.28-13.20.55:577][  0]SourceControl: Source control is disabled
+[2018.01.28-13.20.55:656][  0]SourceControl: Source control is disabled
+[2018.01.28-13.20.55:711][  0]SourceControl: Source control is disabled
+[2018.01.28-13.20.56:713][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.28-13.20.57:043][  0]LogOcInput: OculusInput pre-init called
+[2018.01.28-13.20.57:382][  0]LogEngine: Initializing Engine...
+[2018.01.28-13.21.03:455][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2018.01.28-13.21.03:674][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.28-13.21.03:674][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.28-13.21.03:841][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.28-13.21.03:873][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.28-13.21.03:917][  0]LogInit: FAudioDevice initialized.
+[2018.01.28-13.21.04:141][  0]LogDerivedDataCache: Saved boot cache 0.22s 92MB C:/Users/Brad/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.01.28-13.21.04:154][  0]LogInit: Texture streaming: Enabled
+[2018.01.28-13.21.04:271][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.28-13.21.04:431][  0]LogInit: Transaction tracking system initialized
+[2018.01.28-13.21.04:804][  0]BlueprintLog: New page: Editor Load
+[2018.01.28-13.21.05:804][  0]LocalizationService: Localization service is disabled
+[2018.01.28-13.21.06:612][  0]LogConsoleResponse: Display: 
+[2018.01.28-13.21.06:986][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.28-13.21.06:986][  0]LogCook: Display: Mobile HDR setting 1
+[2018.01.28-13.21.06:986][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.01.28-13.21.07:053][  0]LogFileCache: Scanning file cache for directory 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/' took 0.02s
+[2018.01.28-13.21.08:332][  0]SourceControl: Source control is disabled
+[2018.01.28-13.21.08:332][  0]Cmd: MAP LOAD FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.28-13.21.08:339][  0]LightingResults: New page: Lighting Build
+[2018.01.28-13.21.08:384][  0]MapCheck: New page: Map Check
+[2018.01.28-13.21.08:384][  0]LightingResults: New page: Lighting Build
+[2018.01.28-13.21.09:509][  0]LogAIModule: Creating AISystem for world GridWorld
+[2018.01.28-13.21.09:517][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.28-13.21.09:537][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.28-13.21.09:602][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 65.37ms to complete.
+[2018.01.28-13.21.09:602][  0]LogFileHelpers: Loading map 'GridWorld' took 1.271
+[2018.01.28-13.21.09:663][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.28-13.21.09:789][  0]LogCollectionManager: Loaded 0 collections in 0.002353 seconds
+[2018.01.28-13.21.09:875][  0]LogFileCache: Scanning file cache for directory 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Collections/' took 0.01s
+[2018.01.28-13.21.09:875][  0]LogFileCache: Scanning file cache for directory 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Developers/Brad/Collections/' took 0.01s
+[2018.01.28-13.21.09:875][  0]LogFileCache: Scanning file cache for directory 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Collections/' took 0.01s
+[2018.01.28-13.21.09:875][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.01.28-13.21.09:884][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2363 classes and 519 folders.
+[2018.01.28-13.21.09:951][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.01.28-13.21.10:274][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.01.28-13.21.10:348][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.01.28-13.21.10:416][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.28-13.21.10:418][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.28-13.21.10:429][  0]LogSlate: Took 0.005320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.28-13.21.10:570][  0]LogRenderer: Reallocating scene render targets to support 1176x584 Format 26 NumSamples 1 (Frame:1).
+[2018.01.28-13.21.10:781][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.01.28-13.21.10:781][  0]LogLoad: (Engine Initialization) Total time: 28.46 seconds
+[2018.01.28-13.21.10:781][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.01.28-13.21.10:781][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.01.28-13.21.10:808][  0]LogAssetRegistry: Asset discovery search completed in 20.1008 seconds
+[2018.01.28-13.21.10:810][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.01.28-13.21.10:810][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2018.01.28-13.21.10:812][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.28-13.21.10:877][  0]LogSlate: Took 0.005488 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.28-13.26.07:681][667]LogSlate: Took 0.000407 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.28-13.26.07:705][667]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 D:\Misc\Global Game Jam 2018\Sounds Music\Noise_01.mp3)
+[2018.01.28-13.26.14:712][688]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 D:\Misc\Global Game Jam 2018\Sounds Music\Wham! - Wake Me Up Before You Go-Go (Official Video).mp3)
+[2018.01.28-13.31.03:097][351]LogSlate: Took 0.000495 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.28-13.31.12:163][378]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/GridWorld' took 0.038
+[2018.01.28-13.31.12:166][378]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/X_Sounds/Noise_01] ([1] browsable assets)...
+[2018.01.28-13.31.12:166][378]OBJ SavePackage: Finished generating thumbnails for package [/Game/X_Sounds/Noise_01]
+[2018.01.28-13.31.12:166][378]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Sounds/Noise_01" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Sounds/Noise_01_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.01.28-13.31.12:175][378]LogSavePackage: Save=6.85ms
+[2018.01.28-13.31.12:175][378]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Noise_01_Auto1B0A051794E23396284E907974C8FE414.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Sounds/Noise_01_Auto1.uasset'
+[2018.01.28-13.31.12:176][378]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Sounds/Noise_01_Auto1.uasset
+[2018.01.28-13.31.12:177][378]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/X_Sounds/Wham__-_Wake_Me_Up_Before_You_Go-Go__Official_Video_] ([1] browsable assets)...
+[2018.01.28-13.31.12:177][378]OBJ SavePackage: Finished generating thumbnails for package [/Game/X_Sounds/Wham__-_Wake_Me_Up_Before_You_Go-Go__Official_Video_]
+[2018.01.28-13.31.12:184][378]LogSavePackage: Save=5.70ms
+[2018.01.28-13.31.12:185][378]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Wham__-_Wake_Me_Up_Before_You_Go7347C47F41971E1C428FA0ABE6F0372E.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Sounds/Wham__-_Wake_Me_Up_Before_You_Go-Go__Official_Video__Auto1.uasset'
+[2018.01.28-13.31.12:185][378]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Sounds/Wham__-_Wake_Me_Up_Before_You_Go-Go__Official_Video__Auto1.uasset
+[2018.01.28-13.31.12:185][378]LogFileHelpers: Auto-saving content packages took 0.021
+[2018.01.28-13.45.00:239][192]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/GridWorld.GridWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld' with GeneratedClass '/Game/Maps/GridWorld.GridWorld_C' with ClassGeneratedBy '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld'
+[2018.01.28-13.45.00:239][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.28-13.45.00:241][192]PIE: New page: SIE session: GridWorld (Jan 28, 2018, 3:45:00 AM)
+[2018.01.28-13.45.00:241][192]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GridWorld
+[2018.01.28-13.45.00:262][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020781s)
+[2018.01.28-13.45.00:262][192]LogAIModule: Creating AISystem for world GridWorld
+[2018.01.28-13.45.00:263][192]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2018.01.28-13.45.00:263][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GridWorld.GridWorld to /Game/Maps/UEDPIE_0_GridWorld.GridWorld (0.021867s)
+[2018.01.28-13.45.00:303][192]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.28-13.45.00:316][192]LogInit: FAudioDevice initialized.
+[2018.01.28-13.45.00:365][192]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.01.28-13.45.00:365][192]LogLoad: Game class is 'GameModeBase'
+[2018.01.28-13.45.00:374][192]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GridWorld.GridWorld up for play (max tick rate 0) at 2018.01.28-08.45.00
+[2018.01.28-13.45.00:375][192]LogWorld: Bringing up level for play took: 0.005412
+[2018.01.28-13.45.00:376][192]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.01.28-13.45.00:451][192]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.01.28-13.45.00:459][192]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GridWorld 0.285
+[2018.01.28-13.45.00:481][192]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/GridWorld.GridWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld' with GeneratedClass '/Game/Maps/GridWorld.GridWorld_C' with ClassGeneratedBy '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld'
+[2018.01.28-13.45.31:916][160]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.31:916][160]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.31:962][163]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.31:962][163]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.32:024][167]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.32:024][167]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.32:080][171]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.32:080][171]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.32:205][180]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.32:205][180]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.32:309][188]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.32:309][188]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.32:399][195]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.32:399][195]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.32:675][216]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.32:675][216]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.32:691][217]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.32:691][217]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.32:704][218]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.32:704][218]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.32:718][219]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.32:718][219]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.32:731][220]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.32:731][220]PIE: Warning: Mobility of /Game/Maps/UEDPIE_0_GridWorld.GridWorld:PersistentLevel.BoxBrush9 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.01.28-13.45.36:323][352]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/GridWorld.GridWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld' with GeneratedClass '/Game/Maps/GridWorld.GridWorld_C' with ClassGeneratedBy '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld'
+[2018.01.28-13.45.36:386][352]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/GridWorld.GridWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld' with GeneratedClass '/Game/Maps/GridWorld.GridWorld_C' with ClassGeneratedBy '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld'
+[2018.01.28-13.45.47:725][795]LogEditorViewport: Clicking on Actor (LMB): NavModifierVolume (NavModifierVolume3)
+[2018.01.28-13.46.41:681][191]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/GridWorld.GridWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld' with GeneratedClass '/Game/Maps/GridWorld.GridWorld_C' with ClassGeneratedBy '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld'
+[2018.01.28-13.46.41:681][191]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.28-13.46.41:682][191]PIE: New page: PIE session: GridWorld (Jan 28, 2018, 3:46:41 AM)
+[2018.01.28-13.46.41:682][191]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GridWorld
+[2018.01.28-13.46.41:692][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010487s)
+[2018.01.28-13.46.41:693][191]LogAIModule: Creating AISystem for world GridWorld
+[2018.01.28-13.46.41:693][191]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2018.01.28-13.46.41:693][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GridWorld.GridWorld to /Game/Maps/UEDPIE_0_GridWorld.GridWorld (0.011329s)
+[2018.01.28-13.46.41:727][191]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.28-13.46.41:736][191]LogInit: FAudioDevice initialized.
+[2018.01.28-13.46.41:769][191]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.01.28-13.46.41:769][191]LogLoad: Game class is 'GameModeBase'
+[2018.01.28-13.46.41:772][191]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GridWorld.GridWorld up for play (max tick rate 0) at 2018.01.28-08.46.41
+[2018.01.28-13.46.41:772][191]LogWorld: Bringing up level for play took: 0.002171
+[2018.01.28-13.46.41:775][191]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_GridWorld -0.398
+[2018.01.28-13.46.41:775][191]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/GridWorld.GridWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld' with GeneratedClass '/Game/Maps/GridWorld.GridWorld_C' with ClassGeneratedBy '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld'
+[2018.01.28-13.46.44:243][480]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/GridWorld.GridWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld' with GeneratedClass '/Game/Maps/GridWorld.GridWorld_C' with ClassGeneratedBy '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld'
+[2018.01.28-13.46.44:278][480]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/GridWorld.GridWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld' with GeneratedClass '/Game/Maps/GridWorld.GridWorld_C' with ClassGeneratedBy '/Game/Maps/GridWorld.GridWorld:PersistentLevel.GridWorld'
+[2018.01.28-13.49.22:185][ 25]Cmd: TRANSACTION UNDO
+[2018.01.28-13.49.22:185][ 25]LogEditorTransaction: Undo Move Actors
+[2018.01.28-13.49.52:926][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GridWorld" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/Maps/GridWorld_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.01.28-13.49.53:184][211]LogSavePackage: Save=249.37ms
+[2018.01.28-13.49.53:184][211]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/GridWorld_Auto2A1F0C0594D7BF4877C4B9EA2AFA126EA.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/Maps/GridWorld_Auto2.umap'
+[2018.01.28-13.49.53:185][211]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/Maps/GridWorld_Auto2.umap
+[2018.01.28-13.49.53:188][211]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/GridWorld' took 0.322
+[2018.01.28-13.49.53:188][211]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.322
+[2018.01.28-13.49.53:245][211]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/X_Sounds/Noise] ([1] browsable assets)...
+[2018.01.28-13.49.53:245][211]OBJ SavePackage: Finished generating thumbnails for package [/Game/X_Sounds/Noise]
+[2018.01.28-13.49.53:245][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Sounds/Noise" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Sounds/Noise_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.01.28-13.49.53:258][211]LogSavePackage: Save=10.14ms
+[2018.01.28-13.49.53:258][211]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Noise_Auto23B591D5D418EF5BD5D82F09C8F946EEE.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Sounds/Noise_Auto2.uasset'
+[2018.01.28-13.49.53:258][211]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Sounds/Noise_Auto2.uasset
+[2018.01.28-13.49.53:259][211]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/X_Sounds/WakeMeUp] ([1] browsable assets)...
+[2018.01.28-13.49.53:259][211]OBJ SavePackage: Finished generating thumbnails for package [/Game/X_Sounds/WakeMeUp]
+[2018.01.28-13.49.53:259][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Sounds/WakeMeUp" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Sounds/WakeMeUp_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.01.28-13.49.53:271][211]LogSavePackage: Save=10.15ms
+[2018.01.28-13.49.53:271][211]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/WakeMeUp_Auto2D793741445C176AEB5D12CADA544FFA5.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Sounds/WakeMeUp_Auto2.uasset'
+[2018.01.28-13.49.53:272][211]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Sounds/WakeMeUp_Auto2.uasset
+[2018.01.28-13.49.53:272][211]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/X_Sounds/NoiseAtt] ([1] browsable assets)...
+[2018.01.28-13.49.53:272][211]OBJ SavePackage: Finished generating thumbnails for package [/Game/X_Sounds/NoiseAtt]
+[2018.01.28-13.49.53:272][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Sounds/NoiseAtt" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Sounds/NoiseAtt_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.01.28-13.49.53:279][211]LogSavePackage: Save=4.73ms
+[2018.01.28-13.49.53:279][211]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/NoiseAtt_Auto29B1A23354BB8E2C4C31E0C994C387BCC.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Sounds/NoiseAtt_Auto2.uasset'
+[2018.01.28-13.49.53:280][211]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Autosaves/Game/X_Sounds/NoiseAtt_Auto2.uasset
+[2018.01.28-13.49.53:280][211]LogFileHelpers: Auto-saving content packages took 0.035
+[2018.01.28-13.56.32:605][ 19]Cmd: TRANSACTION UNDO
+[2018.01.28-13.56.32:605][ 19]LogEditorTransaction: Undo Move Actors
+[2018.01.28-13.56.32:608][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GridWorld.GridWorld:PersistentLevel.BoxBrush8.BrushComponent0) Component already registered.
+[2018.01.28-13.56.32:609][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GridWorld.GridWorld:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2018.01.28-13.56.32:609][ 19]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/GridWorld.GridWorld:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2018.01.28-13.57.40:678][584]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (EditorCube32)
+[2018.01.28-13.58.16:271][871]LogMetaData: Removing '/Game/X_Meshes/BP_PickupCube.BP_PickupCube:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/VirtualRealityBP/Blueprints/BP_PickupCube.PackageMetaData'
+[2018.01.28-13.58.16:271][871]LogMetaData: Removing '/Game/X_Meshes/BP_PickupCube.BP_PickupCube_C' ref from Metadata '/Game/VirtualRealityBP/Blueprints/BP_PickupCube.PackageMetaData'
+[2018.01.28-13.58.16:271][871]LogMetaData: Removing '/Game/X_Meshes/BP_PickupCube.BP_PickupCube:EventGraph.K2Node_Event_0' ref from Metadata '/Game/VirtualRealityBP/Blueprints/BP_PickupCube.PackageMetaData'
+[2018.01.28-13.58.16:271][871]LogMetaData: Removing '/Game/X_Meshes/BP_PickupCube.BP_PickupCube:EventGraph.K2Node_Event_1' ref from Metadata '/Game/VirtualRealityBP/Blueprints/BP_PickupCube.PackageMetaData'
+[2018.01.28-13.58.16:271][871]LogMetaData: Removing '/Game/X_Meshes/BP_PickupCube.BP_PickupCube:EventGraph.K2Node_Event_2' ref from Metadata '/Game/VirtualRealityBP/Blueprints/BP_PickupCube.PackageMetaData'
+[2018.01.28-13.58.16:271][871]LogMetaData: Removing '/Game/X_Meshes/BP_PickupCube.SKEL_BP_PickupCube_C:ReceiveBeginPlay' ref from Metadata '/Game/VirtualRealityBP/Blueprints/BP_PickupCube.PackageMetaData'
+[2018.01.28-13.58.16:271][871]LogMetaData: Removing '/Game/X_Meshes/BP_PickupCube.SKEL_BP_PickupCube_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/VirtualRealityBP/Blueprints/BP_PickupCube.PackageMetaData'
+[2018.01.28-13.58.16:271][871]LogMetaData: Removing '/Game/X_Meshes/BP_PickupCube.SKEL_BP_PickupCube_C:ReceiveTick' ref from Metadata '/Game/VirtualRealityBP/Blueprints/BP_PickupCube.PackageMetaData'
+[2018.01.28-13.58.16:271][871]LogMetaData: Removing '/Game/X_Meshes/BP_PickupCube.SKEL_BP_PickupCube_C:UserConstructionScript' ref from Metadata '/Game/VirtualRealityBP/Blueprints/BP_PickupCube.PackageMetaData'
+[2018.01.28-13.58.16:271][871]LogMetaData: Removing '/Game/X_Meshes/BP_PickupCube.SKEL_BP_PickupCube_C' ref from Metadata '/Game/VirtualRealityBP/Blueprints/BP_PickupCube.PackageMetaData'
+[2018.01.28-13.58.16:271][871]LogMetaData: Removing '/Game/X_Meshes/BP_PickupCube.BP_PickupCube_C:UserConstructionScript' ref from Metadata '/Game/VirtualRealityBP/Blueprints/BP_PickupCube.PackageMetaData'
+[2018.01.28-13.58.16:271][871]LogMetaData: Removing '/Game/X_Meshes/BP_PickupCube.BP_PickupCube_C:ExecuteUbergraph_BP_PickupCube' ref from Metadata '/Game/VirtualRealityBP/Blueprints/BP_PickupCube.PackageMetaData'
+[2018.01.28-13.58.16:337][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Meshes/BP_PickupCube" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupCube.uasset" SILENT=true
+[2018.01.28-13.58.16:385][871]LogSavePackage: Save=45.69ms
+[2018.01.28-13.58.16:385][871]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/BP_PickupCube62352CC3485A650541F7988BD8D199A7.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupCube.uasset'
+[2018.01.28-13.58.16:388][871]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupCube.uasset
+[2018.01.28-13.58.16:392][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Blueprints/BP_PickupCube" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/VirtualRealityBP/Blueprints/BP_PickupCube.uasset" SILENT=true
+[2018.01.28-13.58.16:409][871]LogSavePackage: Save=6.18ms
+[2018.01.28-13.58.16:409][871]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/BP_PickupCube8D63F24547D458F84061D18519697B8B.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/VirtualRealityBP/Blueprints/BP_PickupCube.uasset'
+[2018.01.28-13.58.16:412][871]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/VirtualRealityBP/Blueprints/BP_PickupCube.uasset
+[2018.01.28-13.58.18:668][120]LogEditorViewport: Clicking on Actor (LMB): BP_PickupSHoe_C (BP_PickupSHoe)
+[2018.01.28-13.58.19:222][181]LogEditorViewport: Clicking on Actor (context menu): BP_PickupSHoe_C (BP_PickupSHoe)
+[2018.01.28-14.03.43:266][372]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2018.01.28-14.03.46:749][783]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor2)
+[2018.01.28-14.03.50:508][228]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shoe)
+[2018.01.28-14.03.53:219][548]Cmd: DELETE
+[2018.01.28-14.03.53:219][548]Cmd: ACTOR DELETE
+[2018.01.28-14.03.53:224][548]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.28-14.03.53:255][548]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2018.01.28-14.03.55:266][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Radio_03)
+[2018.01.28-14.03.56:216][898]Cmd: DELETE
+[2018.01.28-14.03.56:216][898]Cmd: ACTOR DELETE
+[2018.01.28-14.03.56:220][898]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.28-14.03.56:246][898]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2018.01.28-14.03.57:140][  5]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Radio_04)
+[2018.01.28-14.03.57:514][ 45]Cmd: DELETE
+[2018.01.28-14.03.57:514][ 45]Cmd: ACTOR DELETE
+[2018.01.28-14.03.57:518][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.28-14.03.57:549][ 45]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2018.01.28-14.03.58:582][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Radio_01)
+[2018.01.28-14.03.58:877][197]Cmd: DELETE
+[2018.01.28-14.03.58:877][197]Cmd: ACTOR DELETE
+[2018.01.28-14.03.58:882][197]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.28-14.03.58:908][197]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2018.01.28-14.04.12:989][886]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Radio_02)
+[2018.01.28-14.04.13:364][926]Cmd: DELETE
+[2018.01.28-14.04.13:364][926]Cmd: ACTOR DELETE
+[2018.01.28-14.04.13:368][926]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.28-14.04.13:399][926]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2018.01.28-14.04.25:791][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Meshes/stool" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/stool.uasset" SILENT=true
+[2018.01.28-14.04.25:815][946]LogSavePackage: Save=21.12ms
+[2018.01.28-14.04.25:815][946]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/stool21FB19B1435189C9985699B60333FA45.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/stool.uasset'
+[2018.01.28-14.04.25:822][946]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/stool.uasset
+[2018.01.28-14.04.36:229][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Meshes/Stool/Stool_Mat" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/Stool/Stool_Mat.uasset" SILENT=true
+[2018.01.28-14.04.36:251][797]LogSavePackage: Save=19.68ms
+[2018.01.28-14.04.36:251][797]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Stool_Mat946ACB164A8AEF31E86B9B9EA6DB0D93.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/Stool/Stool_Mat.uasset'
+[2018.01.28-14.04.36:253][797]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/Stool/Stool_Mat.uasset
+[2018.01.28-14.04.36:285][797]LogSavePackage: Save=14.24ms
+[2018.01.28-14.04.36:285][797]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/stool_1001_OcclusionRoughnessMet9126D4BD44DBDEAE5B43E186207D8E43.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/Stool/stool_1001_OcclusionRoughnessMetallic.uasset'
+[2018.01.28-14.04.36:287][797]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/Stool/stool_1001_OcclusionRoughnessMetallic.uasset
+[2018.01.28-14.04.36:304][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Meshes/Stool/stool_1001_Normal" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/Stool/stool_1001_Normal.uasset" SILENT=true
+[2018.01.28-14.04.36:372][797]LogSavePackage: Save=66.45ms
+[2018.01.28-14.04.36:372][797]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/stool_1001_Normal3425EC5C4138591789357E818790EF9C.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/Stool/stool_1001_Normal.uasset'
+[2018.01.28-14.04.36:377][797]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/Stool/stool_1001_Normal.uasset
+[2018.01.28-14.04.36:389][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Meshes/Stool/stool_1001_Emissive" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/Stool/stool_1001_Emissive.uasset" SILENT=true
+[2018.01.28-14.04.36:419][797]LogSavePackage: Save=26.69ms
+[2018.01.28-14.04.36:419][797]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/stool_1001_Emissive398318A54FAA45224BAEB7A68E584EE5.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/Stool/stool_1001_Emissive.uasset'
+[2018.01.28-14.04.36:422][797]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/Stool/stool_1001_Emissive.uasset
+[2018.01.28-14.04.36:438][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Meshes/Stool/stool_1001_BaseColor" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/Stool/stool_1001_BaseColor.uasset" SILENT=true
+[2018.01.28-14.04.36:503][797]LogSavePackage: Save=63.05ms
+[2018.01.28-14.04.36:503][797]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/stool_1001_BaseColor3AB17556403B53B76EA027B69EF8A2CC.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/Stool/stool_1001_BaseColor.uasset'
+[2018.01.28-14.04.36:505][797]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/Stool/stool_1001_BaseColor.uasset
+[2018.01.28-14.04.36:806][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Meshes/stool" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/stool.uasset" SILENT=true
+[2018.01.28-14.04.36:849][797]LogSavePackage: Save=12.42ms
+[2018.01.28-14.04.36:849][797]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/stoolDD0592E648C7678674EED6A9DB4F8324.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/stool.uasset'
+[2018.01.28-14.04.36:850][797]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/stool.uasset
+[2018.01.28-14.05.00:452][114]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.01.28-14.05.01:044][114]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.28-14.05.01:164][114]LogSlate: Took 0.005439 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.28-14.05.01:245][115]LogSlate: Took 0.005069 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.28-14.05.26:032][976]BlueprintLog: New page: Compile BP_PickupStool
+[2018.01.28-14.05.26:943][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Meshes/BP_PickupStool" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupStool.uasset" SILENT=true
+[2018.01.28-14.05.26:978][ 32]LogSavePackage: Save=33.00ms
+[2018.01.28-14.05.26:978][ 32]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/BP_PickupStoolB619633341D2C1FD0434FEA606B01654.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupStool.uasset'
+[2018.01.28-14.05.26:980][ 32]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupStool.uasset
+[2018.01.28-14.06.49:919][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GridWorld" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.28-14.06.50:209][485]LogSavePackage: Save=256.27ms
+[2018.01.28-14.06.50:209][485]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/GridWorld54B15F224DE7B79A35BE3D9AFA0CA2BD.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld.umap'
+[2018.01.28-14.06.50:215][485]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld.umap
+[2018.01.28-14.06.50:241][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GridWorld_BuiltData" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_BuiltData.uasset" SILENT=true
+[2018.01.28-14.06.50:353][485]LogSavePackage: Save=102.08ms
+[2018.01.28-14.06.50:353][485]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/GridWorld_BuiltDataDB699E79426F075835F731800316E81D.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_BuiltData.uasset'
+[2018.01.28-14.06.50:355][485]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_BuiltData.uasset
+[2018.01.28-14.07.19:655][735]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2018.01.28-14.07.19:657][735]LogMaterial: Missing cached shader map for material Purple_Mat, compiling. 
+[2018.01.28-14.07.20:055][735]LogMaterial: Missing cached shader map for material Purple_Mat, compiling. 
+[2018.01.28-14.07.20:071][735]LogMaterial: Missing cached shader map for material Purple_Mat, compiling. 
+[2018.01.28-14.07.20:115][735]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.01.28-14.07.20:120][735]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.01.28-14.07.21:664][794]MaterialEditorStats: Base pass shader: 149 instructions
+[2018.01.28-14.07.21:664][794]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 222 instructions
+[2018.01.28-14.07.21:664][794]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-14.07.21:664][794]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-14.07.21:664][794]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-14.07.24:676][927]LogMaterial: Missing cached shader map for material Purple_Mat, compiling. 
+[2018.01.28-14.07.25:353][951]MaterialEditorStats: Base pass shader: 149 instructions
+[2018.01.28-14.07.25:353][951]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 222 instructions
+[2018.01.28-14.07.25:353][951]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-14.07.25:353][951]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-14.07.25:353][951]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-14.07.27:192][ 17]LogMaterial: Missing cached shader map for material Purple_Mat, compiling. 
+[2018.01.28-14.07.27:880][ 43]MaterialEditorStats: Base pass shader: 149 instructions
+[2018.01.28-14.07.27:880][ 43]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 222 instructions
+[2018.01.28-14.07.27:880][ 43]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-14.07.27:880][ 43]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-14.07.27:880][ 43]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-14.07.34:929][417]LogMaterial: Missing cached shader map for material Purple_Mat, compiling. 
+[2018.01.28-14.07.35:838][455]MaterialEditorStats: Base pass shader: 149 instructions
+[2018.01.28-14.07.35:838][455]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 222 instructions
+[2018.01.28-14.07.35:838][455]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-14.07.35:838][455]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-14.07.35:838][455]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-14.07.38:253][574]LogMaterialEditor: Saving and Compiling material Purple_Mat
+[2018.01.28-14.07.38:742][574]LogMaterial: Missing cached shader map for material Purple_Mat, compiling. 
+[2018.01.28-14.07.38:795][574]LogMaterial: Missing cached shader map for material Purple_Mat, compiling. 
+[2018.01.28-14.07.38:824][574]LogMaterial: Missing cached shader map for material Purple_Mat, compiling. 
+[2018.01.28-14.07.38:890][574]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Purple_Mat, compiling. 
+[2018.01.28-14.07.39:341][574]TextureStreamingBuild: Display: Compiling optional shaders took 0.458 seconds.
+[2018.01.28-14.07.41:826][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Materials/Purple_Mat" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Purple_Mat.uasset" SILENT=true
+[2018.01.28-14.07.41:855][574]LogSavePackage: Save=20.95ms
+[2018.01.28-14.07.41:855][574]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Purple_Mat6E1127C543C9C63732BA678ECC8F10DD.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Purple_Mat.uasset'
+[2018.01.28-14.07.41:858][574]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Purple_Mat.uasset
+[2018.01.28-14.07.41:872][574]MaterialEditorStats: Base pass shader: 149 instructions
+[2018.01.28-14.07.41:872][574]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 222 instructions
+[2018.01.28-14.07.41:872][574]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-14.07.41:872][574]MaterialEditorStats: Texture samplers: 4/16
+[2018.01.28-14.07.41:872][574]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-14.09.03:532][161]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.28-14.09.03:607][161]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.28-14.09.03:623][161]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.28-14.09.03:672][161]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.01.28-14.09.03:676][161]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.01.28-14.09.04:945][208]MaterialEditorStats: Base pass shader: 149 instructions
+[2018.01.28-14.09.04:945][208]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 222 instructions
+[2018.01.28-14.09.04:945][208]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.01.28-14.09.04:945][208]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-14.09.04:945][208]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-14.09.19:078][865]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.28-14.09.19:109][865]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.28-14.09.20:401][904]MaterialEditorStats: Base pass shader: 88 instructions
+[2018.01.28-14.09.20:401][904]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 115 instructions
+[2018.01.28-14.09.20:401][904]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.01.28-14.09.20:401][904]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-14.09.20:401][904]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-14.09.30:565][195]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.28-14.09.30:591][195]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.01.28-14.09.31:843][229]MaterialEditorStats: Base pass shader: 91 instructions
+[2018.01.28-14.09.31:843][229]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 118 instructions
+[2018.01.28-14.09.31:843][229]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.01.28-14.09.31:843][229]MaterialEditorStats: Texture samplers: 3/16
+[2018.01.28-14.09.31:843][229]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-14.09.38:451][457]LogMaterialEditor: Saving and Compiling material Purple_Mat
+[2018.01.28-14.09.38:961][457]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.28-14.09.39:037][457]LogMaterial: Missing cached shader map for material Purple_Mat, compiling. 
+[2018.01.28-14.09.39:073][457]LogMaterial: Missing cached shader map for material Purple_Mat, compiling. 
+[2018.01.28-14.09.39:168][457]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Purple_Mat, compiling. 
+[2018.01.28-14.09.39:934][457]TextureStreamingBuild: Display: Compiling optional shaders took 0.774 seconds.
+[2018.01.28-14.09.43:535][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Materials/Purple_Mat" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Purple_Mat.uasset" SILENT=true
+[2018.01.28-14.09.43:562][457]LogSavePackage: Save=24.39ms
+[2018.01.28-14.09.43:562][457]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Purple_MatCE711B6A4DC13F052CF6E889353039A1.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Purple_Mat.uasset'
+[2018.01.28-14.09.43:565][457]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/Purple_Mat.uasset
+[2018.01.28-14.15.31:486][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GridWorld" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.28-14.15.31:754][112]LogSavePackage: Save=220.48ms
+[2018.01.28-14.15.31:755][112]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/GridWorld57C8C89947CC6EE10F4A7AAB242D2E47.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld.umap'
+[2018.01.28-14.15.31:765][112]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld.umap
+[2018.01.28-14.15.31:788][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GridWorld_BuiltData" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_BuiltData.uasset" SILENT=true
+[2018.01.28-14.15.31:897][112]LogSavePackage: Save=98.94ms
+[2018.01.28-14.15.31:897][112]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/GridWorld_BuiltDataBF28D09D46BEF103C59C2D976449CE87.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_BuiltData.uasset'
+[2018.01.28-14.15.31:898][112]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_BuiltData.uasset
