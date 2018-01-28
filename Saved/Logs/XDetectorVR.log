@@ -902,3 +902,7 @@ LogInit: Object subsystem initialized
 [2018.01.28-14.34.57:100][468]LogSavePackage: Save=11.64ms
 [2018.01.28-14.34.57:100][468]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Splash_Screen8058D8834D2E5A471AEE11B52CB0214A.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/Splash_Screen.uasset'
 [2018.01.28-14.34.57:104][468]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Interface/Splash_Screen.uasset
+[2018.01.28-14.36.53:508][978]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2018.01.28-14.37.00:913][848]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2018.01.28-14.37.10:455][981]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush13)
+[2018.01.28-14.37.32:228][473]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
