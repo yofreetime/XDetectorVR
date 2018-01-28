@@ -2182,3 +2182,25 @@ LogInit: Object subsystem initialized
 [2018.01.28-17.18.03:788][833]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/GridWorld_02761FF77F40CB144053C72CB1C1C83765.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap'
 [2018.01.28-17.18.03:791][833]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap
 [2018.01.28-17.18.03:815][833]LogFileHelpers: Saving map 'GridWorld_02' took 0.387
+[2018.01.28-17.18.42:676][734]AssetReimport: New page: Outstanding source content changes 7:18:42 AM
+[2018.01.28-17.18.42:678][734]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/RadioAssembledMAYBE.fbx)
+[2018.01.28-17.18.42:681][734]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.01.28-17.18.42:681][734]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.01.28-17.18.42:681][734]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.01.28-17.18.42:681][734]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.01.28-17.18.42:681][734]LogFbx: ItemName: Material, ItemCount : 1
+[2018.01.28-17.18.42:681][734]LogFbx: ItemName: Model, ItemCount : 1
+[2018.01.28-17.18.42:686][734]LogFbx: Loading FBX Scene from D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/RadioAssembledMAYBE.fbx
+[2018.01.28-17.18.42:694][734]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.28-17.18.44:825][734]LogFbx: Loading FBX Scene from D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/RadioAssembledMAYBE.fbx
+[2018.01.28-17.18.44:831][734]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.28-17.18.44:831][734]LogLinker: Can't find file '/Game/X_Materials/lambert3'
+[2018.01.28-17.18.44:832][734]LogLinker: Can't find file '/Game/X_Materials/lambert3'
+[2018.01.28-17.18.44:837][734]LogMaterial: Missing cached shader map for material lambert3, compiling. 
+[2018.01.28-17.18.44:885][734]LogStaticMesh: Building static mesh RadioAssembledMAYBE...
+[2018.01.28-17.18.44:939][734]LogStaticMesh: Built static mesh [0.05s] /Game/X_Materials/RadioAssembledMAYBE.RadioAssembledMAYBE
+[2018.01.28-17.18.45:133][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Materials/RadioAssembledMAYBE" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/RadioAssembledMAYBE.uasset" SILENT=true
+[2018.01.28-17.18.45:156][735]LogSavePackage: Save=21.08ms
+[2018.01.28-17.18.45:156][735]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/RadioAssembledMAYBE18067AB34EA6D82049B1628100D06BB3.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/RadioAssembledMAYBE.uasset'
+[2018.01.28-17.18.45:159][735]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/RadioAssembledMAYBE.uasset
+[2018.01.28-17.18.48:201][840]AssetReimport: Importing new asset /Game/X_Materials/RadioAssembledMAYBE.
