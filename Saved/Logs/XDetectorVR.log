@@ -2204,3 +2204,48 @@ LogInit: Object subsystem initialized
 [2018.01.28-17.18.45:156][735]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/RadioAssembledMAYBE18067AB34EA6D82049B1628100D06BB3.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/RadioAssembledMAYBE.uasset'
 [2018.01.28-17.18.45:159][735]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/RadioAssembledMAYBE.uasset
 [2018.01.28-17.18.48:201][840]AssetReimport: Importing new asset /Game/X_Materials/RadioAssembledMAYBE.
+[2018.01.28-17.22.59:465][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Materials/RadioAssembledMAYBE" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/RadioAssembledMAYBE.uasset" SILENT=true
+[2018.01.28-17.22.59:504][884]LogSavePackage: Save=19.26ms
+[2018.01.28-17.22.59:504][884]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/RadioAssembledMAYBED54B9D7C407DB422AA98D1BE18C95D91.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/RadioAssembledMAYBE.uasset'
+[2018.01.28-17.22.59:508][884]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/RadioAssembledMAYBE.uasset
+[2018.01.28-17.23.36:892][619]BlueprintLog: New page: Compile BP_PickupRadio
+[2018.01.28-17.23.39:827][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Meshes/BP_PickupRadio" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupRadio.uasset" SILENT=true
+[2018.01.28-17.23.39:867][669]LogSavePackage: Save=30.05ms
+[2018.01.28-17.23.39:867][669]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/BP_PickupRadioA476947D482471966A97DE9A62BF1A3A.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupRadio.uasset'
+[2018.01.28-17.23.39:870][669]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/BP_PickupRadio.uasset
+[2018.01.28-17.24.20:976][268]LogEditorViewport: Clicking on Actor (LMB): BP_PickupRadio_C (BP_PickupRadio)
+[2018.01.28-17.24.54:524][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GridWorld_02" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.28-17.24.54:805][ 86]LogSavePackage: Save=224.47ms
+[2018.01.28-17.24.54:805][ 86]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/GridWorld_02176372AA49C0E305591F60AE725C6098.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap'
+[2018.01.28-17.24.54:808][ 86]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/Maps/GridWorld_02.umap
+[2018.01.28-17.24.54:838][ 86]LogFileHelpers: Saving map 'GridWorld_02' took 0.388
+[2018.01.28-17.24.54:855][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Materials/lambert3" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/lambert3.uasset" SILENT=true
+[2018.01.28-17.24.54:875][ 86]LogSavePackage: Save=17.65ms
+[2018.01.28-17.24.54:875][ 86]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/lambert3ED86F6B047730722851447A047F9A62C.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/lambert3.uasset'
+[2018.01.28-17.24.54:877][ 86]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Materials/lambert3.uasset
+[2018.01.28-17.25.24:039][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/X_Meshes/Shoe" FILE="D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/Shoe.uasset" SILENT=true
+[2018.01.28-17.25.24:064][888]LogSavePackage: Save=15.97ms
+[2018.01.28-17.25.24:064][888]LogSavePackage: Moving 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Saved/Shoe7A8AF9AA4E3CE38C3BE83185AA054986.tmp' to 'D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/Shoe.uasset'
+[2018.01.28-17.25.24:066][888]LogSavePackage: Display: Finished SavePackage D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/Shoe.uasset
+[2018.01.28-17.25.52:184][397]LogLinker: Warning: Can't find file '/Game/X_Meshes/Radio'
+[2018.01.28-17.25.52:184][397]LogLinker: Warning: Can't find file for asset '/Game/X_Meshes/Radio' while loading D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/01_-_Default.uasset.
+[2018.01.28-17.25.52:184][397]LoadErrors: Error: /Game/X_Meshes/01_-_Default : Can't find file for asset. /Game/X_Meshes/Radio
+[2018.01.28-17.25.52:185][397]LogLinker: Warning: Can't find file '/Game/X_Meshes/Radio'
+[2018.01.28-17.25.52:185][397]LogLinker: Warning: Can't find file for asset '/Game/X_Meshes/Radio' while loading D:/Misc/Global Game Jam 2018/UE4/XDetectorVR/Content/X_Meshes/01_-_Default.uasset.
+[2018.01.28-17.25.52:185][397]LogLinker: Warning: Can't find file '/Game/X_Meshes/Radio'
+[2018.01.28-17.25.52:185][397]LoadErrors: Failed to load /Game/X_Meshes/Radio.Radio Referenced by MaterialExpressionTextureSample_0
+[2018.01.28-17.25.52:185][397]LogLinker: Warning: Can't find file for asset '/Game/X_Meshes/Radio' while loading NULL.
+[2018.01.28-17.25.52:188][397]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2018.01.28-17.25.52:188][397]LogMaterial: Warning: D:\Misc\Global Game Jam 2018\UE4\XDetectorVR\Content\X_Meshes\01_-_Default.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.28-17.25.52:188][397]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.01.28-17.25.52:220][397]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2018.01.28-17.25.52:221][397]LogMaterial: Warning: /Engine/Transient.01_-_Default (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.28-17.25.52:221][397]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.01.28-17.25.52:295][397]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2018.01.28-17.25.52:296][397]LogMaterial: Warning: /Engine/Transient.01_-_Default (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.28-17.25.52:296][397]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.01.28-17.25.52:298][397]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2018.01.28-17.25.52:298][397]LogMaterial: Warning: /Engine/Transient.01_-_Default (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.28-17.25.52:298][397]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.01.28-17.25.52:328][397]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.01.28-17.25.52:330][397]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
